@@ -1005,3 +1005,115 @@ Stack trace:
 2020-03-27 20:20:41 | 1585311641.7096 | INFO | Success to init MySQL instance
 2020-03-27 20:20:41 | 1585311641.7120 | INFO | Success to init Redis instance
 2020-03-27 20:20:41 | 1585311641.7140 | INFO | Worker 0 ready for connections ...
+[27-Mar-2020 20:21:11 Asia/Chongqing] PHP Fatal error:  Uncaught Error: Call to undefined method Worker::afterClose() in /project/miniWebsocket/library/core/Hooker.php:94
+Stack trace:
+#0 {main}
+  thrown in /project/miniWebsocket/library/core/Hooker.php on line 94
+[2020-03-27 12:21:11 *8930.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Call to undefined method Worker::afterClose() in /project/miniWebsocket/library/core/Hooker.php:94
+Stack trace:
+#0 {main}
+  thrown in /project/miniWebsocket/library/core/Hooker.php on line 94.
+[2020-03-27 12:21:11 $8918.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+2020-03-27 20:21:11 | 1585311671.6969 | FATAL | Worker 0 exit with code 255 and signal 0
+2020-03-27 20:21:11 | 1585311671.7035 | INFO | Success to init MySQL instance
+2020-03-27 20:21:11 | 1585311671.7062 | INFO | Success to init MySQL instance
+2020-03-27 20:21:11 | 1585311671.7091 | INFO | Success to init Redis instance
+2020-03-27 20:21:11 | 1585311671.7109 | INFO | Worker 0 ready for connections ...
+[27-Mar-2020 20:21:41 Asia/Chongqing] PHP Fatal error:  Uncaught Error: Call to undefined method Worker::afterClose() in /project/miniWebsocket/library/core/Hooker.php:94
+Stack trace:
+#0 {main}
+  thrown in /project/miniWebsocket/library/core/Hooker.php on line 94
+[2020-03-27 12:21:41 *8931.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Call to undefined method Worker::afterClose() in /project/miniWebsocket/library/core/Hooker.php:94
+Stack trace:
+#0 {main}
+  thrown in /project/miniWebsocket/library/core/Hooker.php on line 94.
+[2020-03-27 12:21:41 $8918.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+2020-03-27 20:21:41 | 1585311701.6991 | FATAL | Worker 0 exit with code 255 and signal 0
+2020-03-27 20:21:41 | 1585311701.7078 | INFO | Success to init MySQL instance
+2020-03-27 20:21:41 | 1585311701.7111 | INFO | Success to init MySQL instance
+2020-03-27 20:21:41 | 1585311701.7138 | INFO | Success to init Redis instance
+2020-03-27 20:21:41 | 1585311701.7158 | INFO | Worker 0 ready for connections ...
+[27-Mar-2020 20:22:11 Asia/Chongqing] PHP Fatal error:  Uncaught Error: Call to undefined method Worker::afterClose() in /project/miniWebsocket/library/core/Hooker.php:94
+Stack trace:
+#0 {main}
+  thrown in /project/miniWebsocket/library/core/Hooker.php on line 94
+[2020-03-27 12:22:11 *8932.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Call to undefined method Worker::afterClose() in /project/miniWebsocket/library/core/Hooker.php:94
+Stack trace:
+#0 {main}
+  thrown in /project/miniWebsocket/library/core/Hooker.php on line 94.
+[2020-03-27 12:22:11 $8918.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+2020-03-27 20:22:11 | 1585311731.6994 | FATAL | Worker 0 exit with code 255 and signal 0
+2020-03-27 20:22:11 | 1585311731.7080 | INFO | Success to init MySQL instance
+2020-03-27 20:22:11 | 1585311731.7105 | INFO | Success to init MySQL instance
+2020-03-27 20:22:11 | 1585311731.7140 | INFO | Success to init Redis instance
+2020-03-27 20:22:11 | 1585311731.7159 | INFO | Worker 0 ready for connections ...
+[27-Mar-2020 20:22:41 Asia/Chongqing] PHP Fatal error:  Uncaught Error: Call to undefined method Worker::afterClose() in /project/miniWebsocket/library/core/Hooker.php:94
+Stack trace:
+#0 {main}
+  thrown in /project/miniWebsocket/library/core/Hooker.php on line 94
+[2020-03-27 12:22:41 *8933.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Call to undefined method Worker::afterClose() in /project/miniWebsocket/library/core/Hooker.php:94
+Stack trace:
+#0 {main}
+  thrown in /project/miniWebsocket/library/core/Hooker.php on line 94.
+[2020-03-27 12:22:41 $8918.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+2020-03-27 20:22:41 | 1585311761.7005 | FATAL | Worker 0 exit with code 255 and signal 0
+2020-03-27 20:22:41 | 1585311761.7093 | INFO | Success to init MySQL instance
+2020-03-27 20:22:41 | 1585311761.7116 | INFO | Success to init MySQL instance
+2020-03-27 20:22:41 | 1585311761.7143 | INFO | Success to init Redis instance
+2020-03-27 20:22:41 | 1585311761.7160 | INFO | Worker 0 ready for connections ...
+[27-Mar-2020 20:23:11 Asia/Chongqing] PHP Fatal error:  Uncaught Error: Call to undefined method Worker::afterClose() in /project/miniWebsocket/library/core/Hooker.php:94
+Stack trace:
+#0 {main}
+  thrown in /project/miniWebsocket/library/core/Hooker.php on line 94
+[2020-03-27 12:23:11 *8934.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Call to undefined method Worker::afterClose() in /project/miniWebsocket/library/core/Hooker.php:94
+Stack trace:
+#0 {main}
+  thrown in /project/miniWebsocket/library/core/Hooker.php on line 94.
+[2020-03-27 12:23:11 $8918.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+2020-03-27 20:23:11 | 1585311791.7008 | FATAL | Worker 0 exit with code 255 and signal 0
+2020-03-27 20:23:11 | 1585311791.7072 | INFO | Success to init MySQL instance
+2020-03-27 20:23:11 | 1585311791.7098 | INFO | Success to init MySQL instance
+2020-03-27 20:23:11 | 1585311791.7122 | INFO | Success to init Redis instance
+2020-03-27 20:23:11 | 1585311791.7147 | INFO | Worker 0 ready for connections ...
+[27-Mar-2020 20:23:41 Asia/Chongqing] PHP Fatal error:  Uncaught Error: Call to undefined method Worker::afterClose() in /project/miniWebsocket/library/core/Hooker.php:94
+Stack trace:
+#0 {main}
+  thrown in /project/miniWebsocket/library/core/Hooker.php on line 94
+[2020-03-27 12:23:41 *8935.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Call to undefined method Worker::afterClose() in /project/miniWebsocket/library/core/Hooker.php:94
+Stack trace:
+#0 {main}
+  thrown in /project/miniWebsocket/library/core/Hooker.php on line 94.
+[2020-03-27 12:23:41 $8918.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+2020-03-27 20:23:41 | 1585311821.7038 | FATAL | Worker 0 exit with code 255 and signal 0
+2020-03-27 20:23:41 | 1585311821.7127 | INFO | Success to init MySQL instance
+2020-03-27 20:23:41 | 1585311821.7153 | INFO | Success to init MySQL instance
+2020-03-27 20:23:41 | 1585311821.7181 | INFO | Success to init Redis instance
+2020-03-27 20:23:41 | 1585311821.7200 | INFO | Worker 0 ready for connections ...
+[27-Mar-2020 20:24:11 Asia/Chongqing] PHP Fatal error:  Uncaught Error: Call to undefined method Worker::afterClose() in /project/miniWebsocket/library/core/Hooker.php:94
+Stack trace:
+#0 {main}
+  thrown in /project/miniWebsocket/library/core/Hooker.php on line 94
+[2020-03-27 12:24:11 *8971.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Call to undefined method Worker::afterClose() in /project/miniWebsocket/library/core/Hooker.php:94
+Stack trace:
+#0 {main}
+  thrown in /project/miniWebsocket/library/core/Hooker.php on line 94.
+[2020-03-27 12:24:11 $8918.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+2020-03-27 20:24:11 | 1585311851.7020 | FATAL | Worker 0 exit with code 255 and signal 0
+2020-03-27 20:24:11 | 1585311851.7087 | INFO | Success to init MySQL instance
+2020-03-27 20:24:11 | 1585311851.7113 | INFO | Success to init MySQL instance
+2020-03-27 20:24:11 | 1585311851.7137 | INFO | Success to init Redis instance
+2020-03-27 20:24:11 | 1585311851.7164 | INFO | Worker 0 ready for connections ...
+[27-Mar-2020 20:24:41 Asia/Chongqing] PHP Fatal error:  Uncaught Error: Call to undefined method Worker::afterClose() in /project/miniWebsocket/library/core/Hooker.php:94
+Stack trace:
+#0 {main}
+  thrown in /project/miniWebsocket/library/core/Hooker.php on line 94
+[2020-03-27 12:24:41 *8972.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Call to undefined method Worker::afterClose() in /project/miniWebsocket/library/core/Hooker.php:94
+Stack trace:
+#0 {main}
+  thrown in /project/miniWebsocket/library/core/Hooker.php on line 94.
+[2020-03-27 12:24:41 $8918.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+2020-03-27 20:24:41 | 1585311881.7029 | FATAL | Worker 0 exit with code 255 and signal 0
+2020-03-27 20:24:41 | 1585311881.7113 | INFO | Success to init MySQL instance
+2020-03-27 20:24:41 | 1585311881.7138 | INFO | Success to init MySQL instance
+2020-03-27 20:24:41 | 1585311881.7164 | INFO | Success to init Redis instance
+2020-03-27 20:24:41 | 1585311881.7182 | INFO | Worker 0 ready for connections ...

@@ -1,4 +1,4 @@
-# Mini HTTP
+# Mini Websocket
 ### Write Less and Do More ###
 
 ```
@@ -10,7 +10,7 @@
 ```
 <hr />
 
-- 仅支持HTTP<br />
+- 仅支持Websocket<br />
 - Master-Worker 模式<br />
 - Module-Controller-Model 分层 <br />
 - MySQL 断线自动重连 <br />
@@ -47,7 +47,7 @@
 - EVN 的定义在 Boostrap.php 的第一句, 请升级脚本(deploy.py)自行根据环境修改<br />
 - 配置文件是 conf/ENV.php。 ENV 区分为 DEV, UAT, PRODUCTION, 请自行根据运行环境调整 <br />
 - common 为公共配置部分, 影响整体 <br />
-- $section 分为: common, http, mysql, redis 配置 <br />
+- $section 分为: common, Websocket, mysql, redis 配置 <br />
 - 配置文件的 key 务必使用小写字母 <br />
 - 任意地方均可使用 Config::get($section) 来获取配置文件中 $section 的参数
 - 任意地方均可使用 Config::get($section, $key) 来获取配置文件中 $section 中的 $key 对应的参数
@@ -106,8 +106,7 @@ public function log(){
 
 <hr />
 
-#### HTTP 服务
-- 将 http 段的enable 设置为 true, 其他服务设置为 false <br />
+#### Websocket 服务
 - sh shell/socket.sh restart 重启服务 <br />
 - ps -ef | grep Mini 将看到 <br />
     > Mini_Swoole_http_master: 为 master 进程  <br />
@@ -121,7 +120,7 @@ public function log(){
 
 <hr />
 
-#### HTTP 服务之控制器
+#### Websocket 服务之控制器
 - 根目录的 controller 的 Index.php/index(), 负责处理 http 的 index 事件, 也就是首页<br />
 - 为了将控制权由 onRequest 路由至控制器, 客户端应该在URL中指定处理该请求的 module (默认是index, 可以忽略), controller 及 action (默认是index, 可以忽略), 示例如下: 
 
