@@ -1,0 +1,1007 @@
+[27-Mar-2020 19:46:19 Asia/Chongqing] PHP Fatal error:  Uncaught Error: Undefined class constant 'TYPE_WEB_SOCKET' in /project/miniWebsocket/library/core/WebSocket.php:41
+Stack trace:
+#0 /project/miniWebsocket/library/core/MiniSwoole.php(104): WebSocket->start()
+#1 /project/miniWebsocket/Boostrap.php(15): MiniSwoole->run()
+#2 {main}
+  thrown in /project/miniWebsocket/library/core/WebSocket.php on line 41
+2020-03-27 19:47:11 | 1585309631.3840 | INFO | ======= Websocket master start =======
+2020-03-27 19:47:11 | 1585309631.5042 | INFO | Success to init MySQL instance
+2020-03-27 19:47:11 | 1585309631.5048 | INFO | Success to init MySQL instance
+2020-03-27 19:47:11 | 1585309631.5094 | INFO | Success to init MySQL instance
+2020-03-27 19:47:11 | 1585309631.5113 | INFO | Success to init Redis instance
+2020-03-27 19:47:11 | 1585309631.5129 | INFO | Success to init Redis instance
+2020-03-27 19:47:11 | 1585309631.5137 | INFO | Worker 1 ready for connections ...
+2020-03-27 19:47:11 | 1585309631.5156 | INFO | Worker 0 ready for connections ...
+2020-03-27 19:48:03 | 1585309683.9359 | ERROR | ErrorNO: 2
+2020-03-27 19:48:03 | 1585309683.9385 | ERROR | Error: explode() expects parameter 2 to be string, array given
+2020-03-27 19:48:03 | 1585309683.9403 | ERROR | File: /project/miniWebsocket/library/core/Router.php
+2020-03-27 19:48:03 | 1585309683.9423 | ERROR | Line: 40
+2020-03-27 19:48:03 | 1585309683.9439 | ERROR | ================================================================================
+[27-Mar-2020 19:48:05 Asia/Chongqing] PHP Fatal error:  Uncaught Error: Call to undefined method Worker::afterClose() in /project/miniWebsocket/library/core/Hooker.php:101
+Stack trace:
+#0 {main}
+  thrown in /project/miniWebsocket/library/core/Hooker.php on line 101
+[2020-03-27 11:48:05 *7833.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Call to undefined method Worker::afterClose() in /project/miniWebsocket/library/core/Hooker.php:101
+Stack trace:
+#0 {main}
+  thrown in /project/miniWebsocket/library/core/Hooker.php on line 101.
+[2020-03-27 11:48:05 $7829.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+2020-03-27 19:48:05 | 1585309685.9915 | FATAL | Worker 0 exit with code 255 and signal 0
+2020-03-27 19:48:05 | 1585309685.9983 | INFO | Success to init MySQL instance
+2020-03-27 19:48:06 | 1585309686.0008 | INFO | Success to init MySQL instance
+2020-03-27 19:48:06 | 1585309686.0031 | INFO | Success to init Redis instance
+2020-03-27 19:48:06 | 1585309686.0048 | INFO | Worker 0 ready for connections ...
+2020-03-27 19:48:06 | 1585309686.0620 | ERROR | ErrorNO: 2
+2020-03-27 19:48:06 | 1585309686.0642 | ERROR | Error: explode() expects parameter 2 to be string, array given
+2020-03-27 19:48:06 | 1585309686.0660 | ERROR | File: /project/miniWebsocket/library/core/Router.php
+2020-03-27 19:48:06 | 1585309686.0677 | ERROR | Line: 40
+2020-03-27 19:48:06 | 1585309686.0694 | ERROR | ================================================================================
+[27-Mar-2020 19:48:09 Asia/Chongqing] PHP Fatal error:  Uncaught Error: Call to undefined method Worker::afterClose() in /project/miniWebsocket/library/core/Hooker.php:101
+Stack trace:
+#0 {main}
+  thrown in /project/miniWebsocket/library/core/Hooker.php on line 101
+[2020-03-27 11:48:09 *7935.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Call to undefined method Worker::afterClose() in /project/miniWebsocket/library/core/Hooker.php:101
+Stack trace:
+#0 {main}
+  thrown in /project/miniWebsocket/library/core/Hooker.php on line 101.
+[2020-03-27 11:48:09 $7829.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+2020-03-27 19:48:09 | 1585309689.6606 | FATAL | Worker 0 exit with code 255 and signal 0
+2020-03-27 19:48:09 | 1585309689.6683 | INFO | Success to init MySQL instance
+2020-03-27 19:48:09 | 1585309689.6714 | INFO | Success to init MySQL instance
+2020-03-27 19:48:09 | 1585309689.6740 | INFO | Success to init Redis instance
+2020-03-27 19:48:09 | 1585309689.6758 | INFO | Worker 0 ready for connections ...
+2020-03-27 19:48:09 | 1585309689.7220 | ERROR | ErrorNO: 2
+2020-03-27 19:48:09 | 1585309689.7243 | ERROR | Error: explode() expects parameter 2 to be string, array given
+2020-03-27 19:48:09 | 1585309689.7261 | ERROR | File: /project/miniWebsocket/library/core/Router.php
+2020-03-27 19:48:09 | 1585309689.7278 | ERROR | Line: 40
+2020-03-27 19:48:09 | 1585309689.7295 | ERROR | ================================================================================
+2020-03-27 19:48:19 | 1585309699.7343 | ERROR | ErrorNO: 2
+2020-03-27 19:48:19 | 1585309699.7368 | ERROR | Error: explode() expects parameter 2 to be string, array given
+2020-03-27 19:48:19 | 1585309699.7388 | ERROR | File: /project/miniWebsocket/library/core/Router.php
+2020-03-27 19:48:19 | 1585309699.7406 | ERROR | Line: 40
+2020-03-27 19:48:19 | 1585309699.7423 | ERROR | ================================================================================
+2020-03-27 19:48:21 | 1585309701.1674 | ERROR | ErrorNO: 2
+2020-03-27 19:48:21 | 1585309701.1694 | ERROR | Error: explode() expects parameter 2 to be string, array given
+2020-03-27 19:48:21 | 1585309701.1714 | ERROR | File: /project/miniWebsocket/library/core/Router.php
+2020-03-27 19:48:21 | 1585309701.1733 | ERROR | Line: 40
+2020-03-27 19:48:21 | 1585309701.1750 | ERROR | ================================================================================
+2020-03-27 19:48:30 | 1585309710.1404 | ERROR | ErrorNO: 2
+2020-03-27 19:48:30 | 1585309710.1431 | ERROR | Error: explode() expects parameter 2 to be string, array given
+2020-03-27 19:48:30 | 1585309710.1449 | ERROR | File: /project/miniWebsocket/library/core/Router.php
+2020-03-27 19:48:30 | 1585309710.1466 | ERROR | Line: 40
+2020-03-27 19:48:30 | 1585309710.1486 | ERROR | ================================================================================
+2020-03-27 19:48:40 | 1585309720.1523 | ERROR | ErrorNO: 2
+2020-03-27 19:48:40 | 1585309720.1553 | ERROR | Error: explode() expects parameter 2 to be string, array given
+2020-03-27 19:48:40 | 1585309720.1572 | ERROR | File: /project/miniWebsocket/library/core/Router.php
+2020-03-27 19:48:40 | 1585309720.1590 | ERROR | Line: 40
+2020-03-27 19:48:40 | 1585309720.1608 | ERROR | ================================================================================
+2020-03-27 19:48:50 | 1585309730.1630 | ERROR | ErrorNO: 2
+2020-03-27 19:48:50 | 1585309730.1657 | ERROR | Error: explode() expects parameter 2 to be string, array given
+2020-03-27 19:48:50 | 1585309730.1674 | ERROR | File: /project/miniWebsocket/library/core/Router.php
+2020-03-27 19:48:50 | 1585309730.1693 | ERROR | Line: 40
+2020-03-27 19:48:50 | 1585309730.1709 | ERROR | ================================================================================
+2020-03-27 19:48:51 | 1585309731.7301 | ERROR | ErrorNO: 2
+2020-03-27 19:48:51 | 1585309731.7320 | ERROR | Error: explode() expects parameter 2 to be string, array given
+2020-03-27 19:48:51 | 1585309731.7338 | ERROR | File: /project/miniWebsocket/library/core/Router.php
+2020-03-27 19:48:51 | 1585309731.7359 | ERROR | Line: 40
+2020-03-27 19:48:51 | 1585309731.7377 | ERROR | ================================================================================
+2020-03-27 19:49:01 | 1585309741.7416 | ERROR | ErrorNO: 2
+2020-03-27 19:49:01 | 1585309741.7440 | ERROR | Error: explode() expects parameter 2 to be string, array given
+2020-03-27 19:49:01 | 1585309741.7456 | ERROR | File: /project/miniWebsocket/library/core/Router.php
+2020-03-27 19:49:01 | 1585309741.7474 | ERROR | Line: 40
+2020-03-27 19:49:01 | 1585309741.7494 | ERROR | ================================================================================
+2020-03-27 19:49:11 | 1585309751.7524 | ERROR | ErrorNO: 2
+2020-03-27 19:49:11 | 1585309751.7549 | ERROR | Error: explode() expects parameter 2 to be string, array given
+2020-03-27 19:49:11 | 1585309751.7567 | ERROR | File: /project/miniWebsocket/library/core/Router.php
+2020-03-27 19:49:11 | 1585309751.7585 | ERROR | Line: 40
+2020-03-27 19:49:11 | 1585309751.7605 | ERROR | ================================================================================
+[2020-03-27 11:49:11 #7828.1]	NOTICE	Server is shutdown now.
+2020-03-27 19:49:11 | 1585309751.8815 | INFO | Worker 0 stop
+2020-03-27 19:49:11 | 1585309751.8818 | INFO | Worker 1 stop
+2020-03-27 19:49:14 | 1585309754.0066 | INFO | ======= Websocket master start =======
+2020-03-27 19:49:14 | 1585309754.1259 | INFO | Success to init MySQL instance
+2020-03-27 19:49:14 | 1585309754.1264 | INFO | Success to init MySQL instance
+2020-03-27 19:49:14 | 1585309754.1294 | INFO | Success to init MySQL instance
+2020-03-27 19:49:14 | 1585309754.1316 | INFO | Success to init Redis instance
+2020-03-27 19:49:14 | 1585309754.1328 | INFO | Success to init Redis instance
+2020-03-27 19:49:14 | 1585309754.1339 | INFO | Worker 1 ready for connections ...
+2020-03-27 19:49:14 | 1585309754.1357 | INFO | Worker 0 ready for connections ...
+2020-03-27 19:49:26 | 1585309766.9051 | ERROR | ErrorNO: 2
+2020-03-27 19:49:26 | 1585309766.9078 | ERROR | Error: explode() expects parameter 2 to be string, array given
+2020-03-27 19:49:26 | 1585309766.9095 | ERROR | File: /project/miniWebsocket/library/core/Router.php
+2020-03-27 19:49:26 | 1585309766.9113 | ERROR | Line: 40
+2020-03-27 19:49:26 | 1585309766.9130 | ERROR | ================================================================================
+2020-03-27 19:49:36 | 1585309776.9191 | ERROR | ErrorNO: 2
+2020-03-27 19:49:36 | 1585309776.9217 | ERROR | Error: explode() expects parameter 2 to be string, array given
+2020-03-27 19:49:36 | 1585309776.9233 | ERROR | File: /project/miniWebsocket/library/core/Router.php
+2020-03-27 19:49:36 | 1585309776.9250 | ERROR | Line: 40
+2020-03-27 19:49:36 | 1585309776.9266 | ERROR | ================================================================================
+2020-03-27 19:49:46 | 1585309786.9292 | ERROR | ErrorNO: 2
+2020-03-27 19:49:46 | 1585309786.9318 | ERROR | Error: explode() expects parameter 2 to be string, array given
+2020-03-27 19:49:46 | 1585309786.9336 | ERROR | File: /project/miniWebsocket/library/core/Router.php
+2020-03-27 19:49:46 | 1585309786.9354 | ERROR | Line: 40
+2020-03-27 19:49:46 | 1585309786.9369 | ERROR | ================================================================================
+2020-03-27 19:49:49 | 1585309789.4401 | ERROR | ErrorNO: 2
+2020-03-27 19:49:49 | 1585309789.4422 | ERROR | Error: explode() expects parameter 2 to be string, array given
+2020-03-27 19:49:49 | 1585309789.4441 | ERROR | File: /project/miniWebsocket/library/core/Router.php
+2020-03-27 19:49:49 | 1585309789.4460 | ERROR | Line: 40
+2020-03-27 19:49:49 | 1585309789.4477 | ERROR | ================================================================================
+2020-03-27 19:49:59 | 1585309799.4507 | ERROR | ErrorNO: 2
+2020-03-27 19:49:59 | 1585309799.4536 | ERROR | Error: explode() expects parameter 2 to be string, array given
+2020-03-27 19:49:59 | 1585309799.4555 | ERROR | File: /project/miniWebsocket/library/core/Router.php
+2020-03-27 19:49:59 | 1585309799.4574 | ERROR | Line: 40
+2020-03-27 19:49:59 | 1585309799.4595 | ERROR | ================================================================================
+2020-03-27 19:50:09 | 1585309809.4623 | ERROR | ErrorNO: 2
+2020-03-27 19:50:09 | 1585309809.4652 | ERROR | Error: explode() expects parameter 2 to be string, array given
+2020-03-27 19:50:09 | 1585309809.4669 | ERROR | File: /project/miniWebsocket/library/core/Router.php
+2020-03-27 19:50:09 | 1585309809.4686 | ERROR | Line: 40
+2020-03-27 19:50:09 | 1585309809.4705 | ERROR | ================================================================================
+2020-03-27 19:50:19 | 1585309819.4747 | ERROR | ErrorNO: 2
+2020-03-27 19:50:19 | 1585309819.4774 | ERROR | Error: explode() expects parameter 2 to be string, array given
+2020-03-27 19:50:19 | 1585309819.4791 | ERROR | File: /project/miniWebsocket/library/core/Router.php
+2020-03-27 19:50:19 | 1585309819.4808 | ERROR | Line: 40
+2020-03-27 19:50:19 | 1585309819.4826 | ERROR | ================================================================================
+2020-03-27 19:50:29 | 1585309829.4861 | ERROR | ErrorNO: 2
+2020-03-27 19:50:29 | 1585309829.4891 | ERROR | Error: explode() expects parameter 2 to be string, array given
+2020-03-27 19:50:29 | 1585309829.4909 | ERROR | File: /project/miniWebsocket/library/core/Router.php
+2020-03-27 19:50:29 | 1585309829.4928 | ERROR | Line: 40
+2020-03-27 19:50:29 | 1585309829.4947 | ERROR | ================================================================================
+2020-03-27 19:50:39 | 1585309839.4974 | ERROR | ErrorNO: 2
+2020-03-27 19:50:39 | 1585309839.5003 | ERROR | Error: explode() expects parameter 2 to be string, array given
+2020-03-27 19:50:39 | 1585309839.5022 | ERROR | File: /project/miniWebsocket/library/core/Router.php
+2020-03-27 19:50:39 | 1585309839.5040 | ERROR | Line: 40
+2020-03-27 19:50:39 | 1585309839.5056 | ERROR | ================================================================================
+2020-03-27 19:50:49 | 1585309849.5084 | ERROR | ErrorNO: 2
+2020-03-27 19:50:49 | 1585309849.5111 | ERROR | Error: explode() expects parameter 2 to be string, array given
+2020-03-27 19:50:49 | 1585309849.5129 | ERROR | File: /project/miniWebsocket/library/core/Router.php
+2020-03-27 19:50:49 | 1585309849.5148 | ERROR | Line: 40
+2020-03-27 19:50:49 | 1585309849.5164 | ERROR | ================================================================================
+2020-03-27 19:50:59 | 1585309859.5207 | ERROR | ErrorNO: 2
+2020-03-27 19:50:59 | 1585309859.5236 | ERROR | Error: explode() expects parameter 2 to be string, array given
+2020-03-27 19:50:59 | 1585309859.5257 | ERROR | File: /project/miniWebsocket/library/core/Router.php
+2020-03-27 19:50:59 | 1585309859.5277 | ERROR | Line: 40
+2020-03-27 19:50:59 | 1585309859.5296 | ERROR | ================================================================================
+2020-03-27 19:51:09 | 1585309869.5322 | ERROR | ErrorNO: 2
+2020-03-27 19:51:09 | 1585309869.5350 | ERROR | Error: explode() expects parameter 2 to be string, array given
+2020-03-27 19:51:09 | 1585309869.5369 | ERROR | File: /project/miniWebsocket/library/core/Router.php
+2020-03-27 19:51:09 | 1585309869.5388 | ERROR | Line: 40
+2020-03-27 19:51:09 | 1585309869.5406 | ERROR | ================================================================================
+2020-03-27 19:51:19 | 1585309879.5436 | ERROR | ErrorNO: 2
+2020-03-27 19:51:19 | 1585309879.5471 | ERROR | Error: explode() expects parameter 2 to be string, array given
+2020-03-27 19:51:19 | 1585309879.5489 | ERROR | File: /project/miniWebsocket/library/core/Router.php
+2020-03-27 19:51:19 | 1585309879.5506 | ERROR | Line: 40
+2020-03-27 19:51:19 | 1585309879.5525 | ERROR | ================================================================================
+2020-03-27 19:51:29 | 1585309889.5565 | ERROR | ErrorNO: 2
+2020-03-27 19:51:29 | 1585309889.5590 | ERROR | Error: explode() expects parameter 2 to be string, array given
+2020-03-27 19:51:29 | 1585309889.5607 | ERROR | File: /project/miniWebsocket/library/core/Router.php
+2020-03-27 19:51:29 | 1585309889.5623 | ERROR | Line: 40
+2020-03-27 19:51:29 | 1585309889.5638 | ERROR | ================================================================================
+2020-03-27 19:51:39 | 1585309899.5672 | ERROR | ErrorNO: 2
+2020-03-27 19:51:39 | 1585309899.5700 | ERROR | Error: explode() expects parameter 2 to be string, array given
+2020-03-27 19:51:39 | 1585309899.5718 | ERROR | File: /project/miniWebsocket/library/core/Router.php
+2020-03-27 19:51:39 | 1585309899.5738 | ERROR | Line: 40
+2020-03-27 19:51:39 | 1585309899.5759 | ERROR | ================================================================================
+2020-03-27 19:51:49 | 1585309909.5787 | ERROR | ErrorNO: 2
+2020-03-27 19:51:49 | 1585309909.5816 | ERROR | Error: explode() expects parameter 2 to be string, array given
+2020-03-27 19:51:49 | 1585309909.5836 | ERROR | File: /project/miniWebsocket/library/core/Router.php
+2020-03-27 19:51:49 | 1585309909.5855 | ERROR | Line: 40
+2020-03-27 19:51:49 | 1585309909.5874 | ERROR | ================================================================================
+2020-03-27 19:51:59 | 1585309919.5921 | ERROR | ErrorNO: 2
+2020-03-27 19:51:59 | 1585309919.5950 | ERROR | Error: explode() expects parameter 2 to be string, array given
+2020-03-27 19:51:59 | 1585309919.5968 | ERROR | File: /project/miniWebsocket/library/core/Router.php
+2020-03-27 19:51:59 | 1585309919.5983 | ERROR | Line: 40
+2020-03-27 19:51:59 | 1585309919.5998 | ERROR | ================================================================================
+2020-03-27 19:52:09 | 1585309929.6026 | ERROR | ErrorNO: 2
+2020-03-27 19:52:09 | 1585309929.6055 | ERROR | Error: explode() expects parameter 2 to be string, array given
+2020-03-27 19:52:09 | 1585309929.6075 | ERROR | File: /project/miniWebsocket/library/core/Router.php
+2020-03-27 19:52:09 | 1585309929.6091 | ERROR | Line: 40
+2020-03-27 19:52:09 | 1585309929.6109 | ERROR | ================================================================================
+2020-03-27 19:52:19 | 1585309939.6150 | ERROR | ErrorNO: 2
+2020-03-27 19:52:19 | 1585309939.6177 | ERROR | Error: explode() expects parameter 2 to be string, array given
+2020-03-27 19:52:19 | 1585309939.6195 | ERROR | File: /project/miniWebsocket/library/core/Router.php
+2020-03-27 19:52:19 | 1585309939.6210 | ERROR | Line: 40
+2020-03-27 19:52:19 | 1585309939.6226 | ERROR | ================================================================================
+2020-03-27 19:52:29 | 1585309949.6261 | ERROR | ErrorNO: 2
+2020-03-27 19:52:29 | 1585309949.6291 | ERROR | Error: explode() expects parameter 2 to be string, array given
+2020-03-27 19:52:29 | 1585309949.6309 | ERROR | File: /project/miniWebsocket/library/core/Router.php
+2020-03-27 19:52:29 | 1585309949.6326 | ERROR | Line: 40
+2020-03-27 19:52:29 | 1585309949.6345 | ERROR | ================================================================================
+2020-03-27 19:52:39 | 1585309959.6379 | ERROR | ErrorNO: 2
+2020-03-27 19:52:39 | 1585309959.6405 | ERROR | Error: explode() expects parameter 2 to be string, array given
+2020-03-27 19:52:39 | 1585309959.6425 | ERROR | File: /project/miniWebsocket/library/core/Router.php
+2020-03-27 19:52:39 | 1585309959.6444 | ERROR | Line: 40
+2020-03-27 19:52:39 | 1585309959.6464 | ERROR | ================================================================================
+2020-03-27 19:52:49 | 1585309969.6494 | ERROR | ErrorNO: 2
+2020-03-27 19:52:49 | 1585309969.6523 | ERROR | Error: explode() expects parameter 2 to be string, array given
+2020-03-27 19:52:49 | 1585309969.6540 | ERROR | File: /project/miniWebsocket/library/core/Router.php
+2020-03-27 19:52:49 | 1585309969.6557 | ERROR | Line: 40
+2020-03-27 19:52:49 | 1585309969.6575 | ERROR | ================================================================================
+2020-03-27 19:52:59 | 1585309979.6605 | ERROR | ErrorNO: 2
+2020-03-27 19:52:59 | 1585309979.6634 | ERROR | Error: explode() expects parameter 2 to be string, array given
+2020-03-27 19:52:59 | 1585309979.6654 | ERROR | File: /project/miniWebsocket/library/core/Router.php
+2020-03-27 19:52:59 | 1585309979.6673 | ERROR | Line: 40
+2020-03-27 19:52:59 | 1585309979.6692 | ERROR | ================================================================================
+[2020-03-27 11:53:02 #7955.1]	NOTICE	Server is shutdown now.
+2020-03-27 19:53:02 | 1585309982.2006 | INFO | Worker 0 stop
+2020-03-27 19:53:02 | 1585309982.2008 | INFO | Worker 1 stop
+2020-03-27 19:53:04 | 1585309984.3265 | INFO | ======= Websocket master start =======
+2020-03-27 19:53:04 | 1585309984.4456 | INFO | Success to init MySQL instance
+2020-03-27 19:53:04 | 1585309984.4462 | INFO | Success to init MySQL instance
+2020-03-27 19:53:04 | 1585309984.4495 | INFO | Success to init MySQL instance
+2020-03-27 19:53:04 | 1585309984.4509 | INFO | Success to init Redis instance
+2020-03-27 19:53:04 | 1585309984.4519 | INFO | Success to init Redis instance
+2020-03-27 19:53:04 | 1585309984.4532 | INFO | Worker 1 ready for connections ...
+2020-03-27 19:53:04 | 1585309984.4544 | INFO | Worker 0 ready for connections ...
+2020-03-27 19:53:14 | 1585309994.8261 | ERROR | ErrorNO: 8
+2020-03-27 19:53:14 | 1585309994.8290 | ERROR | Error: Undefined index: module
+2020-03-27 19:53:14 | 1585309994.8308 | ERROR | File: /project/miniWebsocket/library/core/Hooker.php
+2020-03-27 19:53:14 | 1585309994.8326 | ERROR | Line: 63
+2020-03-27 19:53:14 | 1585309994.8343 | ERROR | ================================================================================
+2020-03-27 19:53:14 | 1585309994.8376 | ERROR | ErrorNO: 9999
+2020-03-27 19:53:14 | 1585309994.8393 | ERROR | Error: No such file or directory: /project/miniWebsocket/module//controller/Websocket.php
+2020-03-27 19:53:14 | 1585309994.8410 | ERROR | File: /project/miniWebsocket/library/core/Hooker.php
+2020-03-27 19:53:14 | 1585309994.8426 | ERROR | Line: 68
+2020-03-27 19:53:14 | 1585309994.8443 | ERROR | ================================================================================
+2020-03-27 19:53:21 | 1585310001.1437 | ERROR | ErrorNO: 8
+2020-03-27 19:53:21 | 1585310001.1464 | ERROR | Error: Undefined index: module
+2020-03-27 19:53:21 | 1585310001.1484 | ERROR | File: /project/miniWebsocket/library/core/Hooker.php
+2020-03-27 19:53:21 | 1585310001.1504 | ERROR | Line: 63
+2020-03-27 19:53:21 | 1585310001.1522 | ERROR | ================================================================================
+2020-03-27 19:53:21 | 1585310001.1540 | ERROR | ErrorNO: 9999
+2020-03-27 19:53:21 | 1585310001.1559 | ERROR | Error: No such file or directory: /project/miniWebsocket/module//controller/Http.php
+2020-03-27 19:53:21 | 1585310001.1578 | ERROR | File: /project/miniWebsocket/library/core/Hooker.php
+2020-03-27 19:53:21 | 1585310001.1597 | ERROR | Line: 68
+2020-03-27 19:53:21 | 1585310001.1616 | ERROR | ================================================================================
+2020-03-27 19:53:31 | 1585310011.1658 | ERROR | ErrorNO: 8
+2020-03-27 19:53:31 | 1585310011.1687 | ERROR | Error: Undefined index: module
+2020-03-27 19:53:31 | 1585310011.1706 | ERROR | File: /project/miniWebsocket/library/core/Hooker.php
+2020-03-27 19:53:31 | 1585310011.1723 | ERROR | Line: 63
+2020-03-27 19:53:31 | 1585310011.1739 | ERROR | ================================================================================
+2020-03-27 19:53:31 | 1585310011.1756 | ERROR | ErrorNO: 9999
+2020-03-27 19:53:31 | 1585310011.1775 | ERROR | Error: No such file or directory: /project/miniWebsocket/module//controller/Websocket.php
+2020-03-27 19:53:31 | 1585310011.1794 | ERROR | File: /project/miniWebsocket/library/core/Hooker.php
+2020-03-27 19:53:31 | 1585310011.1811 | ERROR | Line: 68
+2020-03-27 19:53:31 | 1585310011.1830 | ERROR | ================================================================================
+2020-03-27 19:53:41 | 1585310021.1870 | ERROR | ErrorNO: 8
+2020-03-27 19:53:41 | 1585310021.1899 | ERROR | Error: Undefined index: module
+2020-03-27 19:53:41 | 1585310021.1916 | ERROR | File: /project/miniWebsocket/library/core/Hooker.php
+2020-03-27 19:53:41 | 1585310021.1932 | ERROR | Line: 63
+2020-03-27 19:53:41 | 1585310021.1946 | ERROR | ================================================================================
+2020-03-27 19:53:41 | 1585310021.1962 | ERROR | ErrorNO: 9999
+2020-03-27 19:53:41 | 1585310021.1979 | ERROR | Error: No such file or directory: /project/miniWebsocket/module//controller/Websocket.php
+2020-03-27 19:53:41 | 1585310021.1996 | ERROR | File: /project/miniWebsocket/library/core/Hooker.php
+2020-03-27 19:53:41 | 1585310021.2016 | ERROR | Line: 68
+2020-03-27 19:53:41 | 1585310021.2034 | ERROR | ================================================================================
+2020-03-27 19:53:51 | 1585310031.2072 | ERROR | ErrorNO: 8
+2020-03-27 19:53:51 | 1585310031.2102 | ERROR | Error: Undefined index: module
+2020-03-27 19:53:51 | 1585310031.2118 | ERROR | File: /project/miniWebsocket/library/core/Hooker.php
+2020-03-27 19:53:51 | 1585310031.2136 | ERROR | Line: 63
+2020-03-27 19:53:51 | 1585310031.2156 | ERROR | ================================================================================
+2020-03-27 19:53:51 | 1585310031.2175 | ERROR | ErrorNO: 9999
+2020-03-27 19:53:51 | 1585310031.2192 | ERROR | Error: No such file or directory: /project/miniWebsocket/module//controller/Websocket.php
+2020-03-27 19:53:51 | 1585310031.2210 | ERROR | File: /project/miniWebsocket/library/core/Hooker.php
+2020-03-27 19:53:51 | 1585310031.2227 | ERROR | Line: 68
+2020-03-27 19:53:51 | 1585310031.2245 | ERROR | ================================================================================
+2020-03-27 19:54:01 | 1585310041.2274 | ERROR | ErrorNO: 8
+2020-03-27 19:54:01 | 1585310041.2300 | ERROR | Error: Undefined index: module
+2020-03-27 19:54:01 | 1585310041.2315 | ERROR | File: /project/miniWebsocket/library/core/Hooker.php
+2020-03-27 19:54:01 | 1585310041.2334 | ERROR | Line: 63
+2020-03-27 19:54:01 | 1585310041.2349 | ERROR | ================================================================================
+2020-03-27 19:54:01 | 1585310041.2366 | ERROR | ErrorNO: 9999
+2020-03-27 19:54:01 | 1585310041.2384 | ERROR | Error: No such file or directory: /project/miniWebsocket/module//controller/Websocket.php
+2020-03-27 19:54:01 | 1585310041.2403 | ERROR | File: /project/miniWebsocket/library/core/Hooker.php
+2020-03-27 19:54:01 | 1585310041.2421 | ERROR | Line: 68
+2020-03-27 19:54:01 | 1585310041.2436 | ERROR | ================================================================================
+[27-Mar-2020 19:54:06 Asia/Chongqing] PHP Fatal error:  Uncaught Error: Call to undefined method Worker::afterClose() in /project/miniWebsocket/library/core/Hooker.php:98
+Stack trace:
+#0 {main}
+  thrown in /project/miniWebsocket/library/core/Hooker.php on line 98
+[2020-03-27 11:54:06 *7984.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Call to undefined method Worker::afterClose() in /project/miniWebsocket/library/core/Hooker.php:98
+Stack trace:
+#0 {main}
+  thrown in /project/miniWebsocket/library/core/Hooker.php on line 98.
+[2020-03-27 11:54:06 $7980.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+2020-03-27 19:54:06 | 1585310046.2403 | FATAL | Worker 0 exit with code 255 and signal 0
+2020-03-27 19:54:06 | 1585310046.2494 | INFO | Success to init MySQL instance
+2020-03-27 19:54:06 | 1585310046.2528 | INFO | Success to init MySQL instance
+2020-03-27 19:54:06 | 1585310046.2556 | INFO | Success to init Redis instance
+2020-03-27 19:54:06 | 1585310046.2577 | INFO | Worker 0 ready for connections ...
+2020-03-27 19:54:06 | 1585310046.4367 | ERROR | ErrorNO: 8
+2020-03-27 19:54:06 | 1585310046.4388 | ERROR | Error: Undefined index: module
+2020-03-27 19:54:06 | 1585310046.4403 | ERROR | File: /project/miniWebsocket/library/core/Hooker.php
+2020-03-27 19:54:06 | 1585310046.4420 | ERROR | Line: 63
+2020-03-27 19:54:06 | 1585310046.4438 | ERROR | ================================================================================
+2020-03-27 19:54:06 | 1585310046.4455 | ERROR | ErrorNO: 9999
+2020-03-27 19:54:06 | 1585310046.4473 | ERROR | Error: No such file or directory: /project/miniWebsocket/module//controller/Websocket.php
+2020-03-27 19:54:06 | 1585310046.4492 | ERROR | File: /project/miniWebsocket/library/core/Hooker.php
+2020-03-27 19:54:06 | 1585310046.4509 | ERROR | Line: 68
+2020-03-27 19:54:06 | 1585310046.4525 | ERROR | ================================================================================
+2020-03-27 19:54:16 | 1585310056.4571 | ERROR | ErrorNO: 8
+2020-03-27 19:54:16 | 1585310056.4599 | ERROR | Error: Undefined index: module
+2020-03-27 19:54:16 | 1585310056.4616 | ERROR | File: /project/miniWebsocket/library/core/Hooker.php
+2020-03-27 19:54:16 | 1585310056.4633 | ERROR | Line: 63
+2020-03-27 19:54:16 | 1585310056.4650 | ERROR | ================================================================================
+2020-03-27 19:54:16 | 1585310056.4674 | ERROR | ErrorNO: 9999
+2020-03-27 19:54:16 | 1585310056.4694 | ERROR | Error: No such file or directory: /project/miniWebsocket/module//controller/Stat.php
+2020-03-27 19:54:16 | 1585310056.4714 | ERROR | File: /project/miniWebsocket/library/core/Hooker.php
+2020-03-27 19:54:16 | 1585310056.4734 | ERROR | Line: 68
+2020-03-27 19:54:16 | 1585310056.4754 | ERROR | ================================================================================
+2020-03-27 19:54:26 | 1585310066.4800 | ERROR | ErrorNO: 8
+2020-03-27 19:54:26 | 1585310066.4829 | ERROR | Error: Undefined index: module
+2020-03-27 19:54:26 | 1585310066.4847 | ERROR | File: /project/miniWebsocket/library/core/Hooker.php
+2020-03-27 19:54:26 | 1585310066.4868 | ERROR | Line: 63
+2020-03-27 19:54:26 | 1585310066.4886 | ERROR | ================================================================================
+2020-03-27 19:54:26 | 1585310066.4907 | ERROR | ErrorNO: 9999
+2020-03-27 19:54:26 | 1585310066.4927 | ERROR | Error: No such file or directory: /project/miniWebsocket/module//controller/Stat.php
+2020-03-27 19:54:26 | 1585310066.4947 | ERROR | File: /project/miniWebsocket/library/core/Hooker.php
+2020-03-27 19:54:26 | 1585310066.4965 | ERROR | Line: 68
+2020-03-27 19:54:26 | 1585310066.4984 | ERROR | ================================================================================
+2020-03-27 19:54:36 | 1585310076.5016 | ERROR | ErrorNO: 8
+2020-03-27 19:54:36 | 1585310076.5042 | ERROR | Error: Undefined index: module
+2020-03-27 19:54:36 | 1585310076.5058 | ERROR | File: /project/miniWebsocket/library/core/Hooker.php
+2020-03-27 19:54:36 | 1585310076.5075 | ERROR | Line: 63
+2020-03-27 19:54:36 | 1585310076.5094 | ERROR | ================================================================================
+2020-03-27 19:54:36 | 1585310076.5114 | ERROR | ErrorNO: 9999
+2020-03-27 19:54:36 | 1585310076.5134 | ERROR | Error: No such file or directory: /project/miniWebsocket/module//controller/Stat.php
+2020-03-27 19:54:36 | 1585310076.5154 | ERROR | File: /project/miniWebsocket/library/core/Hooker.php
+2020-03-27 19:54:36 | 1585310076.5173 | ERROR | Line: 68
+2020-03-27 19:54:36 | 1585310076.5190 | ERROR | ================================================================================
+[27-Mar-2020 19:54:40 Asia/Chongqing] PHP Fatal error:  Uncaught Error: Call to undefined method Worker::afterClose() in /project/miniWebsocket/library/core/Hooker.php:98
+Stack trace:
+#0 {main}
+  thrown in /project/miniWebsocket/library/core/Hooker.php on line 98
+[2020-03-27 11:54:40 *8083.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Call to undefined method Worker::afterClose() in /project/miniWebsocket/library/core/Hooker.php:98
+Stack trace:
+#0 {main}
+  thrown in /project/miniWebsocket/library/core/Hooker.php on line 98.
+[2020-03-27 11:54:40 $7980.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+2020-03-27 19:54:40 | 1585310080.0635 | FATAL | Worker 0 exit with code 255 and signal 0
+2020-03-27 19:54:40 | 1585310080.0698 | INFO | Success to init MySQL instance
+2020-03-27 19:54:40 | 1585310080.0729 | INFO | Success to init MySQL instance
+2020-03-27 19:54:40 | 1585310080.0753 | INFO | Success to init Redis instance
+2020-03-27 19:54:40 | 1585310080.0773 | INFO | Worker 0 ready for connections ...
+2020-03-27 19:54:40 | 1585310080.2709 | ERROR | ErrorNO: 8
+2020-03-27 19:54:40 | 1585310080.2729 | ERROR | Error: Undefined index: module
+2020-03-27 19:54:40 | 1585310080.2746 | ERROR | File: /project/miniWebsocket/library/core/Hooker.php
+2020-03-27 19:54:40 | 1585310080.2764 | ERROR | Line: 63
+2020-03-27 19:54:40 | 1585310080.2782 | ERROR | ================================================================================
+2020-03-27 19:54:40 | 1585310080.2801 | ERROR | ErrorNO: 9999
+2020-03-27 19:54:40 | 1585310080.2818 | ERROR | Error: No such file or directory: /project/miniWebsocket/module//controller/Stat.php
+2020-03-27 19:54:40 | 1585310080.2834 | ERROR | File: /project/miniWebsocket/library/core/Hooker.php
+2020-03-27 19:54:40 | 1585310080.2851 | ERROR | Line: 68
+2020-03-27 19:54:40 | 1585310080.2868 | ERROR | ================================================================================
+2020-03-27 19:54:50 | 1585310090.2917 | ERROR | ErrorNO: 8
+2020-03-27 19:54:50 | 1585310090.2942 | ERROR | Error: Undefined index: module
+2020-03-27 19:54:50 | 1585310090.2957 | ERROR | File: /project/miniWebsocket/library/core/Hooker.php
+2020-03-27 19:54:50 | 1585310090.2976 | ERROR | Line: 63
+2020-03-27 19:54:50 | 1585310090.2995 | ERROR | ================================================================================
+2020-03-27 19:54:50 | 1585310090.3013 | ERROR | ErrorNO: 9999
+2020-03-27 19:54:50 | 1585310090.3031 | ERROR | Error: No such file or directory: /project/miniWebsocket/module//controller/Stat.php
+2020-03-27 19:54:50 | 1585310090.3049 | ERROR | File: /project/miniWebsocket/library/core/Hooker.php
+2020-03-27 19:54:50 | 1585310090.3065 | ERROR | Line: 68
+2020-03-27 19:54:50 | 1585310090.3083 | ERROR | ================================================================================
+2020-03-27 19:55:00 | 1585310100.3113 | ERROR | ErrorNO: 8
+2020-03-27 19:55:00 | 1585310100.3141 | ERROR | Error: Undefined index: module
+2020-03-27 19:55:00 | 1585310100.3158 | ERROR | File: /project/miniWebsocket/library/core/Hooker.php
+2020-03-27 19:55:00 | 1585310100.3175 | ERROR | Line: 63
+2020-03-27 19:55:00 | 1585310100.3194 | ERROR | ================================================================================
+2020-03-27 19:55:00 | 1585310100.3213 | ERROR | ErrorNO: 9999
+2020-03-27 19:55:00 | 1585310100.3231 | ERROR | Error: No such file or directory: /project/miniWebsocket/module//controller/Stat.php
+2020-03-27 19:55:00 | 1585310100.3250 | ERROR | File: /project/miniWebsocket/library/core/Hooker.php
+2020-03-27 19:55:00 | 1585310100.3269 | ERROR | Line: 68
+2020-03-27 19:55:00 | 1585310100.3287 | ERROR | ================================================================================
+2020-03-27 19:55:10 | 1585310110.3314 | ERROR | ErrorNO: 8
+2020-03-27 19:55:10 | 1585310110.3353 | ERROR | Error: Undefined index: module
+2020-03-27 19:55:10 | 1585310110.3369 | ERROR | File: /project/miniWebsocket/library/core/Hooker.php
+2020-03-27 19:55:10 | 1585310110.3384 | ERROR | Line: 63
+2020-03-27 19:55:10 | 1585310110.3400 | ERROR | ================================================================================
+2020-03-27 19:55:10 | 1585310110.3419 | ERROR | ErrorNO: 9999
+2020-03-27 19:55:10 | 1585310110.3438 | ERROR | Error: No such file or directory: /project/miniWebsocket/module//controller/Stat.php
+2020-03-27 19:55:10 | 1585310110.3457 | ERROR | File: /project/miniWebsocket/library/core/Hooker.php
+2020-03-27 19:55:10 | 1585310110.3475 | ERROR | Line: 68
+2020-03-27 19:55:10 | 1585310110.3494 | ERROR | ================================================================================
+2020-03-27 19:55:20 | 1585310120.3535 | ERROR | ErrorNO: 8
+2020-03-27 19:55:20 | 1585310120.3565 | ERROR | Error: Undefined index: module
+2020-03-27 19:55:20 | 1585310120.3584 | ERROR | File: /project/miniWebsocket/library/core/Hooker.php
+2020-03-27 19:55:20 | 1585310120.3604 | ERROR | Line: 63
+2020-03-27 19:55:20 | 1585310120.3623 | ERROR | ================================================================================
+2020-03-27 19:55:20 | 1585310120.3644 | ERROR | ErrorNO: 9999
+2020-03-27 19:55:20 | 1585310120.3663 | ERROR | Error: No such file or directory: /project/miniWebsocket/module//controller/Stat.php
+2020-03-27 19:55:20 | 1585310120.3681 | ERROR | File: /project/miniWebsocket/library/core/Hooker.php
+2020-03-27 19:55:20 | 1585310120.3698 | ERROR | Line: 68
+2020-03-27 19:55:20 | 1585310120.3714 | ERROR | ================================================================================
+2020-03-27 19:55:30 | 1585310130.3745 | ERROR | ErrorNO: 8
+2020-03-27 19:55:30 | 1585310130.3774 | ERROR | Error: Undefined index: module
+2020-03-27 19:55:30 | 1585310130.3790 | ERROR | File: /project/miniWebsocket/library/core/Hooker.php
+2020-03-27 19:55:30 | 1585310130.3805 | ERROR | Line: 63
+2020-03-27 19:55:30 | 1585310130.3823 | ERROR | ================================================================================
+2020-03-27 19:55:30 | 1585310130.3841 | ERROR | ErrorNO: 9999
+2020-03-27 19:55:30 | 1585310130.3859 | ERROR | Error: No such file or directory: /project/miniWebsocket/module//controller/Stat.php
+2020-03-27 19:55:30 | 1585310130.3875 | ERROR | File: /project/miniWebsocket/library/core/Hooker.php
+2020-03-27 19:55:30 | 1585310130.3894 | ERROR | Line: 68
+2020-03-27 19:55:30 | 1585310130.3912 | ERROR | ================================================================================
+2020-03-27 19:55:40 | 1585310140.3939 | ERROR | ErrorNO: 8
+2020-03-27 19:55:40 | 1585310140.3966 | ERROR | Error: Undefined index: module
+2020-03-27 19:55:40 | 1585310140.3983 | ERROR | File: /project/miniWebsocket/library/core/Hooker.php
+2020-03-27 19:55:40 | 1585310140.3999 | ERROR | Line: 63
+2020-03-27 19:55:40 | 1585310140.4016 | ERROR | ================================================================================
+2020-03-27 19:55:40 | 1585310140.4036 | ERROR | ErrorNO: 9999
+2020-03-27 19:55:40 | 1585310140.4056 | ERROR | Error: No such file or directory: /project/miniWebsocket/module//controller/Stat.php
+2020-03-27 19:55:40 | 1585310140.4075 | ERROR | File: /project/miniWebsocket/library/core/Hooker.php
+2020-03-27 19:55:40 | 1585310140.4094 | ERROR | Line: 68
+2020-03-27 19:55:40 | 1585310140.4110 | ERROR | ================================================================================
+2020-03-27 19:55:50 | 1585310150.4149 | ERROR | ErrorNO: 8
+2020-03-27 19:55:50 | 1585310150.4175 | ERROR | Error: Undefined index: module
+2020-03-27 19:55:50 | 1585310150.4194 | ERROR | File: /project/miniWebsocket/library/core/Hooker.php
+2020-03-27 19:55:50 | 1585310150.4212 | ERROR | Line: 63
+2020-03-27 19:55:50 | 1585310150.4227 | ERROR | ================================================================================
+2020-03-27 19:55:50 | 1585310150.4243 | ERROR | ErrorNO: 9999
+2020-03-27 19:55:50 | 1585310150.4260 | ERROR | Error: No such file or directory: /project/miniWebsocket/module//controller/Stat.php
+2020-03-27 19:55:50 | 1585310150.4278 | ERROR | File: /project/miniWebsocket/library/core/Hooker.php
+2020-03-27 19:55:50 | 1585310150.4294 | ERROR | Line: 68
+2020-03-27 19:55:50 | 1585310150.4311 | ERROR | ================================================================================
+2020-03-27 19:56:00 | 1585310160.4349 | ERROR | ErrorNO: 8
+2020-03-27 19:56:00 | 1585310160.4376 | ERROR | Error: Undefined index: module
+2020-03-27 19:56:00 | 1585310160.4392 | ERROR | File: /project/miniWebsocket/library/core/Hooker.php
+2020-03-27 19:56:00 | 1585310160.4408 | ERROR | Line: 63
+2020-03-27 19:56:00 | 1585310160.4424 | ERROR | ================================================================================
+2020-03-27 19:56:00 | 1585310160.4442 | ERROR | ErrorNO: 9999
+2020-03-27 19:56:00 | 1585310160.4459 | ERROR | Error: No such file or directory: /project/miniWebsocket/module//controller/Stat.php
+2020-03-27 19:56:00 | 1585310160.4474 | ERROR | File: /project/miniWebsocket/library/core/Hooker.php
+2020-03-27 19:56:00 | 1585310160.4493 | ERROR | Line: 68
+2020-03-27 19:56:00 | 1585310160.4510 | ERROR | ================================================================================
+2020-03-27 19:56:10 | 1585310170.4535 | ERROR | ErrorNO: 8
+2020-03-27 19:56:10 | 1585310170.4565 | ERROR | Error: Undefined index: module
+2020-03-27 19:56:10 | 1585310170.4584 | ERROR | File: /project/miniWebsocket/library/core/Hooker.php
+2020-03-27 19:56:10 | 1585310170.4602 | ERROR | Line: 63
+2020-03-27 19:56:10 | 1585310170.4620 | ERROR | ================================================================================
+2020-03-27 19:56:10 | 1585310170.4636 | ERROR | ErrorNO: 9999
+2020-03-27 19:56:10 | 1585310170.4655 | ERROR | Error: No such file or directory: /project/miniWebsocket/module//controller/Stat.php
+2020-03-27 19:56:10 | 1585310170.4674 | ERROR | File: /project/miniWebsocket/library/core/Hooker.php
+2020-03-27 19:56:10 | 1585310170.4690 | ERROR | Line: 68
+2020-03-27 19:56:10 | 1585310170.4705 | ERROR | ================================================================================
+2020-03-27 19:56:20 | 1585310180.4746 | ERROR | ErrorNO: 8
+2020-03-27 19:56:20 | 1585310180.4776 | ERROR | Error: Undefined index: module
+2020-03-27 19:56:20 | 1585310180.4795 | ERROR | File: /project/miniWebsocket/library/core/Hooker.php
+2020-03-27 19:56:20 | 1585310180.4813 | ERROR | Line: 63
+2020-03-27 19:56:20 | 1585310180.4834 | ERROR | ================================================================================
+2020-03-27 19:56:20 | 1585310180.4860 | ERROR | ErrorNO: 9999
+2020-03-27 19:56:20 | 1585310180.4877 | ERROR | Error: No such file or directory: /project/miniWebsocket/module//controller/Stat.php
+2020-03-27 19:56:20 | 1585310180.4895 | ERROR | File: /project/miniWebsocket/library/core/Hooker.php
+2020-03-27 19:56:20 | 1585310180.4913 | ERROR | Line: 68
+2020-03-27 19:56:20 | 1585310180.4929 | ERROR | ================================================================================
+2020-03-27 19:56:30 | 1585310190.4970 | ERROR | ErrorNO: 8
+2020-03-27 19:56:30 | 1585310190.4997 | ERROR | Error: Undefined index: module
+2020-03-27 19:56:30 | 1585310190.5016 | ERROR | File: /project/miniWebsocket/library/core/Hooker.php
+2020-03-27 19:56:30 | 1585310190.5035 | ERROR | Line: 63
+2020-03-27 19:56:30 | 1585310190.5053 | ERROR | ================================================================================
+2020-03-27 19:56:30 | 1585310190.5072 | ERROR | ErrorNO: 9999
+2020-03-27 19:56:30 | 1585310190.5091 | ERROR | Error: No such file or directory: /project/miniWebsocket/module//controller/Stat.php
+2020-03-27 19:56:30 | 1585310190.5110 | ERROR | File: /project/miniWebsocket/library/core/Hooker.php
+2020-03-27 19:56:30 | 1585310190.5127 | ERROR | Line: 68
+2020-03-27 19:56:30 | 1585310190.5145 | ERROR | ================================================================================
+[27-Mar-2020 19:56:34 Asia/Chongqing] PHP Fatal error:  Uncaught Error: Call to undefined method Worker::afterClose() in /project/miniWebsocket/library/core/Hooker.php:98
+Stack trace:
+#0 {main}
+  thrown in /project/miniWebsocket/library/core/Hooker.php on line 98
+[2020-03-27 11:56:34 *8084.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Call to undefined method Worker::afterClose() in /project/miniWebsocket/library/core/Hooker.php:98
+Stack trace:
+#0 {main}
+  thrown in /project/miniWebsocket/library/core/Hooker.php on line 98.
+[2020-03-27 11:56:34 $7980.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+2020-03-27 19:56:34 | 1585310194.3594 | FATAL | Worker 0 exit with code 255 and signal 0
+2020-03-27 19:56:34 | 1585310194.3684 | INFO | Success to init MySQL instance
+2020-03-27 19:56:34 | 1585310194.3719 | INFO | Success to init MySQL instance
+2020-03-27 19:56:34 | 1585310194.3744 | INFO | Success to init Redis instance
+2020-03-27 19:56:34 | 1585310194.3764 | INFO | Worker 0 ready for connections ...
+2020-03-27 19:56:40 | 1585310200.5172 | ERROR | ErrorNO: 8
+2020-03-27 19:56:40 | 1585310200.5200 | ERROR | Error: Undefined index: module
+2020-03-27 19:56:40 | 1585310200.5216 | ERROR | File: /project/miniWebsocket/library/core/Hooker.php
+2020-03-27 19:56:40 | 1585310200.5233 | ERROR | Line: 63
+2020-03-27 19:56:40 | 1585310200.5251 | ERROR | ================================================================================
+2020-03-27 19:56:40 | 1585310200.5269 | ERROR | ErrorNO: 9999
+2020-03-27 19:56:40 | 1585310200.5286 | ERROR | Error: No such file or directory: /project/miniWebsocket/module//controller/Stat.php
+2020-03-27 19:56:40 | 1585310200.5306 | ERROR | File: /project/miniWebsocket/library/core/Hooker.php
+2020-03-27 19:56:40 | 1585310200.5325 | ERROR | Line: 68
+2020-03-27 19:56:40 | 1585310200.5344 | ERROR | ================================================================================
+[2020-03-27 11:56:48 #7979.1]	NOTICE	Server is shutdown now.
+2020-03-27 19:56:48 | 1585310208.5631 | INFO | Worker 0 stop
+2020-03-27 19:56:48 | 1585310208.5633 | INFO | Worker 1 stop
+2020-03-27 19:56:50 | 1585310210.6845 | INFO | ======= Websocket master start =======
+2020-03-27 19:56:50 | 1585310210.8043 | INFO | Success to init MySQL instance
+2020-03-27 19:56:50 | 1585310210.8048 | INFO | Success to init MySQL instance
+2020-03-27 19:56:50 | 1585310210.8081 | INFO | Success to init MySQL instance
+2020-03-27 19:56:50 | 1585310210.8099 | INFO | Success to init Redis instance
+2020-03-27 19:56:50 | 1585310210.8114 | INFO | Success to init Redis instance
+2020-03-27 19:56:50 | 1585310210.8124 | INFO | Worker 1 ready for connections ...
+2020-03-27 19:56:50 | 1585310210.8136 | INFO | Worker 0 ready for connections ...
+2020-03-27 19:56:54 | 1585310214.5403 | ERROR | ErrorNO: 9999
+2020-03-27 19:56:54 | 1585310214.5426 | ERROR | Error: No such file or directory: /project/miniWebsocket/module//controller/Stat.php
+2020-03-27 19:56:54 | 1585310214.5450 | ERROR | File: /project/miniWebsocket/library/core/Hooker.php
+2020-03-27 19:56:54 | 1585310214.5467 | ERROR | Line: 68
+2020-03-27 19:56:54 | 1585310214.5484 | ERROR | ================================================================================
+2020-03-27 19:57:04 | 1585310224.5528 | ERROR | ErrorNO: 9999
+2020-03-27 19:57:04 | 1585310224.5555 | ERROR | Error: No such file or directory: /project/miniWebsocket/module//controller/Stat.php
+2020-03-27 19:57:04 | 1585310224.5575 | ERROR | File: /project/miniWebsocket/library/core/Hooker.php
+2020-03-27 19:57:04 | 1585310224.5594 | ERROR | Line: 68
+2020-03-27 19:57:04 | 1585310224.5614 | ERROR | ================================================================================
+2020-03-27 19:57:14 | 1585310234.5644 | ERROR | ErrorNO: 9999
+2020-03-27 19:57:14 | 1585310234.5672 | ERROR | Error: No such file or directory: /project/miniWebsocket/module//controller/Stat.php
+2020-03-27 19:57:14 | 1585310234.5690 | ERROR | File: /project/miniWebsocket/library/core/Hooker.php
+2020-03-27 19:57:14 | 1585310234.5709 | ERROR | Line: 68
+2020-03-27 19:57:14 | 1585310234.5728 | ERROR | ================================================================================
+2020-03-27 19:57:24 | 1585310244.5765 | ERROR | ErrorNO: 9999
+2020-03-27 19:57:24 | 1585310244.5794 | ERROR | Error: No such file or directory: /project/miniWebsocket/module//controller/Stat.php
+2020-03-27 19:57:24 | 1585310244.5813 | ERROR | File: /project/miniWebsocket/library/core/Hooker.php
+2020-03-27 19:57:24 | 1585310244.5832 | ERROR | Line: 68
+2020-03-27 19:57:24 | 1585310244.5852 | ERROR | ================================================================================
+[2020-03-27 11:57:27 #8199.1]	NOTICE	Server is shutdown now.
+2020-03-27 19:57:27 | 1585310247.4168 | INFO | Worker 0 stop
+2020-03-27 19:57:27 | 1585310247.4170 | INFO | Worker 1 stop
+2020-03-27 19:57:29 | 1585310249.5092 | INFO | ======= Websocket master start =======
+2020-03-27 19:57:29 | 1585310249.6275 | INFO | Success to init MySQL instance
+2020-03-27 19:57:29 | 1585310249.6288 | INFO | Success to init MySQL instance
+2020-03-27 19:57:29 | 1585310249.6317 | INFO | Success to init MySQL instance
+2020-03-27 19:57:29 | 1585310249.6331 | INFO | Success to init Redis instance
+2020-03-27 19:57:29 | 1585310249.6344 | INFO | Success to init Redis instance
+2020-03-27 19:57:29 | 1585310249.6356 | INFO | Worker 1 ready for connections ...
+2020-03-27 19:57:29 | 1585310249.6372 | INFO | Worker 0 ready for connections ...
+2020-03-27 19:57:31 | 1585310251.9279 | INFO | {"controller":"stat","action":"ping","token":"THIS_IS_TOKEN","file":"MVP"}
+2020-03-27 19:57:31 | 1585310251.9301 | ERROR | ErrorNO: 9999
+2020-03-27 19:57:31 | 1585310251.9318 | ERROR | Error: No such file or directory: /project/miniWebsocket/module//controller/Stat.php
+2020-03-27 19:57:31 | 1585310251.9334 | ERROR | File: /project/miniWebsocket/library/core/Hooker.php
+2020-03-27 19:57:31 | 1585310251.9352 | ERROR | Line: 68
+2020-03-27 19:57:31 | 1585310251.9368 | ERROR | ================================================================================
+2020-03-27 19:57:41 | 1585310261.9398 | INFO | {"controller":"stat","action":"ping","token":"THIS_IS_TOKEN","file":"MVP"}
+2020-03-27 19:57:41 | 1585310261.9426 | ERROR | ErrorNO: 9999
+2020-03-27 19:57:41 | 1585310261.9445 | ERROR | Error: No such file or directory: /project/miniWebsocket/module//controller/Stat.php
+2020-03-27 19:57:41 | 1585310261.9464 | ERROR | File: /project/miniWebsocket/library/core/Hooker.php
+2020-03-27 19:57:41 | 1585310261.9483 | ERROR | Line: 68
+2020-03-27 19:57:41 | 1585310261.9503 | ERROR | ================================================================================
+2020-03-27 19:57:51 | 1585310271.9549 | INFO | {"controller":"stat","action":"ping","token":"THIS_IS_TOKEN","file":"MVP"}
+2020-03-27 19:57:51 | 1585310271.9575 | ERROR | ErrorNO: 9999
+2020-03-27 19:57:51 | 1585310271.9595 | ERROR | Error: No such file or directory: /project/miniWebsocket/module//controller/Stat.php
+2020-03-27 19:57:51 | 1585310271.9615 | ERROR | File: /project/miniWebsocket/library/core/Hooker.php
+2020-03-27 19:57:51 | 1585310271.9636 | ERROR | Line: 68
+2020-03-27 19:57:51 | 1585310271.9656 | ERROR | ================================================================================
+2020-03-27 19:58:01 | 1585310281.9682 | INFO | {"controller":"stat","action":"ping","token":"THIS_IS_TOKEN","file":"MVP"}
+2020-03-27 19:58:01 | 1585310281.9709 | ERROR | ErrorNO: 9999
+2020-03-27 19:58:01 | 1585310281.9726 | ERROR | Error: No such file or directory: /project/miniWebsocket/module//controller/Stat.php
+2020-03-27 19:58:01 | 1585310281.9745 | ERROR | File: /project/miniWebsocket/library/core/Hooker.php
+2020-03-27 19:58:01 | 1585310281.9764 | ERROR | Line: 68
+2020-03-27 19:58:01 | 1585310281.9783 | ERROR | ================================================================================
+2020-03-27 19:58:11 | 1585310291.9809 | INFO | {"controller":"stat","action":"ping","token":"THIS_IS_TOKEN","file":"MVP"}
+2020-03-27 19:58:11 | 1585310291.9835 | ERROR | ErrorNO: 9999
+2020-03-27 19:58:11 | 1585310291.9851 | ERROR | Error: No such file or directory: /project/miniWebsocket/module//controller/Stat.php
+2020-03-27 19:58:11 | 1585310291.9869 | ERROR | File: /project/miniWebsocket/library/core/Hooker.php
+2020-03-27 19:58:11 | 1585310291.9884 | ERROR | Line: 68
+2020-03-27 19:58:11 | 1585310291.9899 | ERROR | ================================================================================
+2020-03-27 19:58:21 | 1585310301.9923 | INFO | {"controller":"stat","action":"ping","token":"THIS_IS_TOKEN","file":"MVP"}
+2020-03-27 19:58:21 | 1585310301.9950 | ERROR | ErrorNO: 9999
+2020-03-27 19:58:21 | 1585310301.9968 | ERROR | Error: No such file or directory: /project/miniWebsocket/module//controller/Stat.php
+2020-03-27 19:58:21 | 1585310301.9985 | ERROR | File: /project/miniWebsocket/library/core/Hooker.php
+2020-03-27 19:58:22 | 1585310302.0004 | ERROR | Line: 68
+2020-03-27 19:58:22 | 1585310302.0019 | ERROR | ================================================================================
+[2020-03-27 11:58:27 #8223.1]	NOTICE	Server is shutdown now.
+2020-03-27 19:58:27 | 1585310307.6011 | INFO | Worker 0 stop
+2020-03-27 19:58:27 | 1585310307.6013 | INFO | Worker 1 stop
+2020-03-27 19:58:29 | 1585310309.7273 | INFO | ======= Websocket master start =======
+2020-03-27 19:58:29 | 1585310309.8461 | INFO | Success to init MySQL instance
+2020-03-27 19:58:29 | 1585310309.8469 | INFO | Success to init MySQL instance
+2020-03-27 19:58:29 | 1585310309.8504 | INFO | Success to init MySQL instance
+2020-03-27 19:58:29 | 1585310309.8517 | INFO | Success to init Redis instance
+2020-03-27 19:58:29 | 1585310309.8529 | INFO | Success to init Redis instance
+2020-03-27 19:58:29 | 1585310309.8559 | INFO | Worker 0 ready for connections ...
+2020-03-27 19:58:29 | 1585310309.8560 | INFO | Worker 1 ready for connections ...
+2020-03-27 19:58:32 | 1585310312.1856 | ERROR | ErrorNO: 9999
+2020-03-27 19:58:32 | 1585310312.1876 | ERROR | Error: No such file or directory: /project/miniWebsocket/module//controller/Stat.php
+2020-03-27 19:58:32 | 1585310312.1892 | ERROR | File: /project/miniWebsocket/library/core/Hooker.php
+2020-03-27 19:58:32 | 1585310312.1907 | ERROR | Line: 68
+2020-03-27 19:58:32 | 1585310312.1925 | ERROR | ================================================================================
+2020-03-27 19:58:32 | 1585310312.1941 | INFO | 
+2020-03-27 19:58:42 | 1585310322.1974 | ERROR | ErrorNO: 9999
+2020-03-27 19:58:42 | 1585310322.2003 | ERROR | Error: No such file or directory: /project/miniWebsocket/module//controller/Stat.php
+2020-03-27 19:58:42 | 1585310322.2022 | ERROR | File: /project/miniWebsocket/library/core/Hooker.php
+2020-03-27 19:58:42 | 1585310322.2040 | ERROR | Line: 68
+2020-03-27 19:58:42 | 1585310322.2059 | ERROR | ================================================================================
+2020-03-27 19:58:42 | 1585310322.2077 | INFO | 
+2020-03-27 19:58:52 | 1585310332.2120 | ERROR | ErrorNO: 9999
+2020-03-27 19:58:52 | 1585310332.2146 | ERROR | Error: No such file or directory: /project/miniWebsocket/module//controller/Stat.php
+2020-03-27 19:58:52 | 1585310332.2164 | ERROR | File: /project/miniWebsocket/library/core/Hooker.php
+2020-03-27 19:58:52 | 1585310332.2184 | ERROR | Line: 68
+2020-03-27 19:58:52 | 1585310332.2200 | ERROR | ================================================================================
+2020-03-27 19:58:52 | 1585310332.2218 | INFO | 
+2020-03-27 19:59:02 | 1585310342.2256 | ERROR | ErrorNO: 9999
+2020-03-27 19:59:02 | 1585310342.2285 | ERROR | Error: No such file or directory: /project/miniWebsocket/module//controller/Stat.php
+2020-03-27 19:59:02 | 1585310342.2304 | ERROR | File: /project/miniWebsocket/library/core/Hooker.php
+2020-03-27 19:59:02 | 1585310342.2324 | ERROR | Line: 68
+2020-03-27 19:59:02 | 1585310342.2343 | ERROR | ================================================================================
+2020-03-27 19:59:02 | 1585310342.2362 | INFO | 
+2020-03-27 19:59:12 | 1585310352.2394 | ERROR | ErrorNO: 9999
+2020-03-27 19:59:12 | 1585310352.2423 | ERROR | Error: No such file or directory: /project/miniWebsocket/module//controller/Stat.php
+2020-03-27 19:59:12 | 1585310352.2438 | ERROR | File: /project/miniWebsocket/library/core/Hooker.php
+2020-03-27 19:59:12 | 1585310352.2455 | ERROR | Line: 68
+2020-03-27 19:59:12 | 1585310352.2473 | ERROR | ================================================================================
+2020-03-27 19:59:12 | 1585310352.2491 | INFO | 
+2020-03-27 19:59:22 | 1585310362.2521 | ERROR | ErrorNO: 9999
+2020-03-27 19:59:22 | 1585310362.2546 | ERROR | Error: No such file or directory: /project/miniWebsocket/module//controller/Stat.php
+2020-03-27 19:59:22 | 1585310362.2561 | ERROR | File: /project/miniWebsocket/library/core/Hooker.php
+2020-03-27 19:59:22 | 1585310362.2578 | ERROR | Line: 68
+2020-03-27 19:59:22 | 1585310362.2595 | ERROR | ================================================================================
+2020-03-27 19:59:22 | 1585310362.2611 | INFO | 
+[2020-03-27 11:59:23 #8246.1]	NOTICE	Server is shutdown now.
+2020-03-27 19:59:23 | 1585310363.8473 | INFO | Worker 0 stop
+2020-03-27 19:59:23 | 1585310363.8475 | INFO | Worker 1 stop
+2020-03-27 19:59:25 | 1585310365.9426 | INFO | ======= Websocket master start =======
+2020-03-27 19:59:26 | 1585310366.0631 | INFO | Success to init MySQL instance
+2020-03-27 19:59:26 | 1585310366.0638 | INFO | Success to init MySQL instance
+2020-03-27 19:59:26 | 1585310366.0675 | INFO | Success to init MySQL instance
+2020-03-27 19:59:26 | 1585310366.0687 | INFO | Success to init Redis instance
+2020-03-27 19:59:26 | 1585310366.0696 | INFO | Success to init Redis instance
+2020-03-27 19:59:26 | 1585310366.0708 | INFO | Worker 1 ready for connections ...
+2020-03-27 19:59:26 | 1585310366.0722 | INFO | Worker 0 ready for connections ...
+2020-03-27 19:59:28 | 1585310368.3489 | INFO | /project/miniWebsocket/module//controller/Stat.php
+2020-03-27 19:59:28 | 1585310368.3511 | ERROR | ErrorNO: 9999
+2020-03-27 19:59:28 | 1585310368.3526 | ERROR | Error: No such file or directory: /project/miniWebsocket/module//controller/Stat.php
+2020-03-27 19:59:28 | 1585310368.3541 | ERROR | File: /project/miniWebsocket/library/core/Hooker.php
+2020-03-27 19:59:28 | 1585310368.3556 | ERROR | Line: 68
+2020-03-27 19:59:28 | 1585310368.3573 | ERROR | ================================================================================
+2020-03-27 19:59:38 | 1585310378.3606 | INFO | /project/miniWebsocket/module//controller/Stat.php
+2020-03-27 19:59:38 | 1585310378.3640 | ERROR | ErrorNO: 9999
+2020-03-27 19:59:38 | 1585310378.3659 | ERROR | Error: No such file or directory: /project/miniWebsocket/module//controller/Stat.php
+2020-03-27 19:59:38 | 1585310378.3679 | ERROR | File: /project/miniWebsocket/library/core/Hooker.php
+2020-03-27 19:59:38 | 1585310378.3698 | ERROR | Line: 68
+2020-03-27 19:59:38 | 1585310378.3812 | ERROR | ================================================================================
+2020-03-27 19:59:48 | 1585310388.3856 | INFO | /project/miniWebsocket/module//controller/Stat.php
+2020-03-27 19:59:48 | 1585310388.3884 | ERROR | ErrorNO: 9999
+2020-03-27 19:59:48 | 1585310388.3904 | ERROR | Error: No such file or directory: /project/miniWebsocket/module//controller/Stat.php
+2020-03-27 19:59:48 | 1585310388.3923 | ERROR | File: /project/miniWebsocket/library/core/Hooker.php
+2020-03-27 19:59:48 | 1585310388.3940 | ERROR | Line: 68
+2020-03-27 19:59:48 | 1585310388.3958 | ERROR | ================================================================================
+2020-03-27 19:59:58 | 1585310398.3985 | INFO | /project/miniWebsocket/module//controller/Stat.php
+2020-03-27 19:59:58 | 1585310398.4011 | ERROR | ErrorNO: 9999
+2020-03-27 19:59:58 | 1585310398.4029 | ERROR | Error: No such file or directory: /project/miniWebsocket/module//controller/Stat.php
+2020-03-27 19:59:58 | 1585310398.4046 | ERROR | File: /project/miniWebsocket/library/core/Hooker.php
+2020-03-27 19:59:58 | 1585310398.4065 | ERROR | Line: 68
+2020-03-27 19:59:58 | 1585310398.4084 | ERROR | ================================================================================
+2020-03-27 20:00:08 | 1585310408.4111 | INFO | /project/miniWebsocket/module//controller/Stat.php
+2020-03-27 20:00:08 | 1585310408.4138 | ERROR | ErrorNO: 9999
+2020-03-27 20:00:08 | 1585310408.4155 | ERROR | Error: No such file or directory: /project/miniWebsocket/module//controller/Stat.php
+2020-03-27 20:00:08 | 1585310408.4174 | ERROR | File: /project/miniWebsocket/library/core/Hooker.php
+2020-03-27 20:00:08 | 1585310408.4194 | ERROR | Line: 68
+2020-03-27 20:00:08 | 1585310408.4211 | ERROR | ================================================================================
+[2020-03-27 12:00:11 #8295.1]	NOTICE	Server is shutdown now.
+2020-03-27 20:00:11 | 1585310411.2901 | INFO | Worker 0 stop
+2020-03-27 20:00:11 | 1585310411.2903 | INFO | Worker 1 stop
+2020-03-27 20:00:13 | 1585310413.3990 | INFO | ======= Websocket master start =======
+2020-03-27 20:00:13 | 1585310413.5175 | INFO | Success to init MySQL instance
+2020-03-27 20:00:13 | 1585310413.5188 | INFO | Success to init MySQL instance
+2020-03-27 20:00:13 | 1585310413.5221 | INFO | Success to init MySQL instance
+2020-03-27 20:00:13 | 1585310413.5233 | INFO | Success to init Redis instance
+2020-03-27 20:00:13 | 1585310413.5250 | INFO | Success to init Redis instance
+2020-03-27 20:00:13 | 1585310413.5257 | INFO | Worker 1 ready for connections ...
+2020-03-27 20:00:13 | 1585310413.5270 | INFO | Worker 0 ready for connections ...
+2020-03-27 20:00:15 | 1585310415.5310 | INFO | /project/miniWebsocket/controller/Stat.php
+2020-03-27 20:00:24 | 1585310424.1028 | INFO | /project/miniWebsocket/controller/Http.php
+2020-03-27 20:00:24 | 1585310424.1196 | INFO | This is an info msg
+2020-03-27 20:00:24 | 1585310424.1215 | WARN | This is a warn msg
+2020-03-27 20:00:24 | 1585310424.1233 | ERROR | This is an error msg
+2020-03-27 20:00:24 | 1585310424.1252 | FATAL | This is a fatal msg
+2020-03-27 20:00:24 | 1585310424.1270 | INFO | This is a log msg
+2020-03-27 20:00:28 | 1585310428.2444 | INFO | /project/miniWebsocket/controller/Http.php
+2020-03-27 20:00:31 | 1585310431.9879 | INFO | /project/miniWebsocket/controller/Http.php
+2020-03-27 20:00:42 | 1585310442.0010 | INFO | /project/miniWebsocket/controller/Stat.php
+2020-03-27 20:00:43 | 1585310443.9469 | INFO | /project/miniWebsocket/controller/Http.php
+2020-03-27 20:00:43 | 1585310443.9490 | ERROR | ErrorNO: 8
+2020-03-27 20:00:43 | 1585310443.9508 | ERROR | Error: Undefined property: C_Http::$m_player
+2020-03-27 20:00:43 | 1585310443.9526 | ERROR | File: /project/miniWebsocket/controller/Http.php
+2020-03-27 20:00:43 | 1585310443.9544 | ERROR | Line: 29
+2020-03-27 20:00:43 | 1585310443.9563 | ERROR | ================================================================================
+[27-Mar-2020 20:00:43 Asia/Chongqing] PHP Fatal error:  Uncaught Error: Call to undefined method Response::error() in /project/miniWebsocket/library/core/Hooker.php:83
+Stack trace:
+#0 {main}
+  thrown in /project/miniWebsocket/library/core/Hooker.php on line 83
+[2020-03-27 12:00:43 *8418.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Call to undefined method Response::error() in /project/miniWebsocket/library/core/Hooker.php:83
+Stack trace:
+#0 {main}
+  thrown in /project/miniWebsocket/library/core/Hooker.php on line 83.
+[2020-03-27 12:00:43 $8414.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+2020-03-27 20:00:43 | 1585310443.9671 | FATAL | Worker 0 exit with code 255 and signal 0
+2020-03-27 20:00:43 | 1585310443.9743 | INFO | Success to init MySQL instance
+2020-03-27 20:00:43 | 1585310443.9770 | INFO | Success to init MySQL instance
+2020-03-27 20:00:43 | 1585310443.9793 | INFO | Success to init Redis instance
+2020-03-27 20:00:43 | 1585310443.9814 | INFO | Worker 0 ready for connections ...
+2020-03-27 20:00:52 | 1585310452.0063 | INFO | /project/miniWebsocket/controller/Stat.php
+2020-03-27 20:01:02 | 1585310462.0125 | INFO | /project/miniWebsocket/controller/Stat.php
+2020-03-27 20:01:12 | 1585310472.0160 | INFO | /project/miniWebsocket/controller/Stat.php
+[2020-03-27 12:01:21 #8413.1]	NOTICE	Server is shutdown now.
+2020-03-27 20:01:21 | 1585310481.4887 | INFO | Worker 0 stop
+2020-03-27 20:01:21 | 1585310481.4889 | INFO | Worker 1 stop
+2020-03-27 20:01:23 | 1585310483.6281 | INFO | ======= Websocket master start =======
+2020-03-27 20:01:23 | 1585310483.7477 | INFO | Success to init MySQL instance
+2020-03-27 20:01:23 | 1585310483.7483 | INFO | Success to init MySQL instance
+2020-03-27 20:01:23 | 1585310483.7515 | INFO | Success to init MySQL instance
+2020-03-27 20:01:23 | 1585310483.7534 | INFO | Success to init Redis instance
+2020-03-27 20:01:23 | 1585310483.7550 | INFO | Success to init Redis instance
+2020-03-27 20:01:23 | 1585310483.7564 | INFO | Worker 1 ready for connections ...
+2020-03-27 20:01:23 | 1585310483.7577 | INFO | Worker 0 ready for connections ...
+2020-03-27 20:01:28 | 1585310488.2646 | INFO | /project/miniWebsocket/controller/Stat.php
+2020-03-27 20:01:33 | 1585310493.0333 | INFO | /project/miniWebsocket/controller/Http.php
+2020-03-27 20:01:33 | 1585310493.0435 | ERROR | ErrorNO: 8
+2020-03-27 20:01:33 | 1585310493.0459 | ERROR | Error: Undefined property: C_Http::$m_player
+2020-03-27 20:01:33 | 1585310493.0476 | ERROR | File: /project/miniWebsocket/controller/Http.php
+2020-03-27 20:01:33 | 1585310493.0494 | ERROR | Line: 29
+2020-03-27 20:01:33 | 1585310493.0512 | ERROR | ================================================================================
+2020-03-27 20:01:40 | 1585310500.3187 | INFO | /project/miniWebsocket/controller/Http.php
+2020-03-27 20:01:44 | 1585310504.3907 | INFO | /project/miniWebsocket/controller/Http.php
+2020-03-27 20:01:49 | 1585310509.0058 | INFO | /project/miniWebsocket/controller/Http.php
+2020-03-27 20:01:53 | 1585310513.1574 | INFO | /project/miniWebsocket/controller/Http.php
+2020-03-27 20:02:02 | 1585310522.2206 | INFO | /project/miniWebsocket/controller/Http.php
+2020-03-27 20:02:02 | 1585310522.2236 | ERROR | ErrorNO: 8
+2020-03-27 20:02:02 | 1585310522.2256 | ERROR | Error: Undefined property: C_Http::$request
+2020-03-27 20:02:02 | 1585310522.2274 | ERROR | File: /project/miniWebsocket/controller/Http.php
+2020-03-27 20:02:02 | 1585310522.2294 | ERROR | Line: 88
+2020-03-27 20:02:02 | 1585310522.2310 | ERROR | ================================================================================
+2020-03-27 20:02:12 | 1585310532.1959 | INFO | /project/miniWebsocket/controller/Http.php
+2020-03-27 20:02:12 | 1585310532.2040 | ERROR | ErrorNO: 2
+2020-03-27 20:02:12 | 1585310532.2058 | ERROR | Error: Use of undefined constant AMQP_EX_TYPE_DIRECT - assumed 'AMQP_EX_TYPE_DIRECT' (this will throw an Error in a future version of PHP)
+2020-03-27 20:02:12 | 1585310532.2077 | ERROR | File: /project/miniWebsocket/library/RabbitMQ.php
+2020-03-27 20:02:12 | 1585310532.2097 | ERROR | Line: 44
+2020-03-27 20:02:12 | 1585310532.2116 | ERROR | ================================================================================
+2020-03-27 20:02:12 | 1585310532.2136 | ERROR | ErrorNO: 8
+2020-03-27 20:02:12 | 1585310532.2156 | ERROR | Error: Undefined index: rabbit_host
+2020-03-27 20:02:12 | 1585310532.2176 | ERROR | File: /project/miniWebsocket/library/RabbitMQ.php
+2020-03-27 20:02:12 | 1585310532.2196 | ERROR | Line: 48
+2020-03-27 20:02:12 | 1585310532.2213 | ERROR | ================================================================================
+2020-03-27 20:02:12 | 1585310532.2232 | ERROR | ErrorNO: 8
+2020-03-27 20:02:12 | 1585310532.2247 | ERROR | Error: Undefined index: rabbit_port
+2020-03-27 20:02:12 | 1585310532.2261 | ERROR | File: /project/miniWebsocket/library/RabbitMQ.php
+2020-03-27 20:02:12 | 1585310532.2279 | ERROR | Line: 49
+2020-03-27 20:02:12 | 1585310532.2298 | ERROR | ================================================================================
+2020-03-27 20:02:12 | 1585310532.2315 | ERROR | ErrorNO: 8
+2020-03-27 20:02:12 | 1585310532.2335 | ERROR | Error: Undefined index: rabbit_username
+2020-03-27 20:02:12 | 1585310532.2357 | ERROR | File: /project/miniWebsocket/library/RabbitMQ.php
+2020-03-27 20:02:12 | 1585310532.2377 | ERROR | Line: 50
+2020-03-27 20:02:12 | 1585310532.2393 | ERROR | ================================================================================
+2020-03-27 20:02:12 | 1585310532.2409 | ERROR | ErrorNO: 8
+2020-03-27 20:02:12 | 1585310532.2424 | ERROR | Error: Undefined index: rabbit_password
+2020-03-27 20:02:12 | 1585310532.2438 | ERROR | File: /project/miniWebsocket/library/RabbitMQ.php
+2020-03-27 20:02:12 | 1585310532.2456 | ERROR | Line: 51
+2020-03-27 20:02:12 | 1585310532.2476 | ERROR | ================================================================================
+2020-03-27 20:02:12 | 1585310532.2496 | ERROR | ErrorNO: 8
+2020-03-27 20:02:12 | 1585310532.2512 | ERROR | Error: Undefined index: rabbit_vhost
+2020-03-27 20:02:12 | 1585310532.2530 | ERROR | File: /project/miniWebsocket/library/RabbitMQ.php
+2020-03-27 20:02:12 | 1585310532.2549 | ERROR | Line: 52
+2020-03-27 20:02:12 | 1585310532.2568 | ERROR | ================================================================================
+2020-03-27 20:02:12 | 1585310532.2589 | INFO | /project/miniWebsocket/controller/Stat.php
+2020-03-27 20:02:18 | 1585310538.2355 | INFO | /project/miniWebsocket/controller/Http.php
+2020-03-27 20:02:26 | 1585310546.9470 | INFO | /project/miniWebsocket/controller/Http.php
+2020-03-27 20:02:33 | 1585310553.7544 | INFO | /project/miniWebsocket/controller/Http.php
+2020-03-27 20:02:43 | 1585310563.7719 | INFO | /project/miniWebsocket/controller/Stat.php
+2020-03-27 20:02:53 | 1585310573.7758 | INFO | /project/miniWebsocket/controller/Stat.php
+2020-03-27 20:03:03 | 1585310583.7793 | INFO | /project/miniWebsocket/controller/Stat.php
+[2020-03-27 12:03:10 #8451.1]	NOTICE	Server is shutdown now.
+2020-03-27 20:03:10 | 1585310590.1170 | INFO | Worker 0 stop
+2020-03-27 20:03:10 | 1585310590.1172 | INFO | Worker 1 stop
+2020-03-27 20:03:12 | 1585310592.2379 | INFO | ======= Websocket master start =======
+2020-03-27 20:03:12 | 1585310592.3592 | INFO | Success to init MySQL instance
+2020-03-27 20:03:12 | 1585310592.3599 | INFO | Success to init MySQL instance
+2020-03-27 20:03:12 | 1585310592.3627 | INFO | Success to init MySQL instance
+2020-03-27 20:03:12 | 1585310592.3647 | INFO | Success to init Redis instance
+2020-03-27 20:03:12 | 1585310592.3657 | INFO | Success to init Redis instance
+2020-03-27 20:03:12 | 1585310592.3669 | INFO | Worker 1 ready for connections ...
+2020-03-27 20:03:12 | 1585310592.3681 | INFO | Worker 0 ready for connections ...
+2020-03-27 20:03:18 | 1585310598.1934 | INFO | /project/miniWebsocket/controller/Stat.php
+2020-03-27 20:03:21 | 1585310601.7770 | INFO | /project/miniWebsocket/controller/Http.php
+2020-03-27 20:03:31 | 1585310611.8011 | INFO | /project/miniWebsocket/controller/Stat.php
+2020-03-27 20:03:39 | 1585310619.1898 | INFO | /project/miniWebsocket/controller/Http.php
+2020-03-27 20:03:49 | 1585310629.2083 | INFO | /project/miniWebsocket/controller/Stat.php
+2020-03-27 20:03:59 | 1585310639.2121 | INFO | /project/miniWebsocket/controller/Stat.php
+2020-03-27 20:04:09 | 1585310649.2156 | INFO | /project/miniWebsocket/controller/Stat.php
+2020-03-27 20:04:19 | 1585310659.2193 | INFO | /project/miniWebsocket/controller/Stat.php
+2020-03-27 20:04:29 | 1585310669.2247 | INFO | /project/miniWebsocket/controller/Stat.php
+2020-03-27 20:04:29 | 1585310669.8573 | INFO | /project/miniWebsocket/controller/Http.php
+2020-03-27 20:04:36 | 1585310676.2891 | INFO | /project/miniWebsocket/controller/Http.php
+2020-03-27 20:04:38 | 1585310678.4965 | INFO | /project/miniWebsocket/controller/Http.php
+2020-03-27 20:04:43 | 1585310683.3446 | INFO | /project/miniWebsocket/controller/Http.php
+2020-03-27 20:04:53 | 1585310693.3557 | INFO | /project/miniWebsocket/controller/Stat.php
+2020-03-27 20:04:53 | 1585310693.7200 | INFO | /project/miniWebsocket/controller/Http.php
+2020-03-27 20:05:03 | 1585310703.7265 | INFO | /project/miniWebsocket/controller/Stat.php
+2020-03-27 20:05:12 | 1585310712.8939 | INFO | /project/miniWebsocket/controller/Http.php
+2020-03-27 20:05:22 | 1585310722.9020 | INFO | /project/miniWebsocket/controller/Stat.php
+2020-03-27 20:05:25 | 1585310725.2290 | INFO | /project/miniWebsocket/controller/Http.php
+2020-03-27 20:05:35 | 1585310735.2397 | INFO | /project/miniWebsocket/controller/Stat.php
+2020-03-27 20:05:45 | 1585310745.2434 | INFO | /project/miniWebsocket/controller/Stat.php
+2020-03-27 20:05:55 | 1585310755.2478 | INFO | /project/miniWebsocket/controller/Stat.php
+2020-03-27 20:06:05 | 1585310765.2531 | INFO | /project/miniWebsocket/controller/Stat.php
+2020-03-27 20:06:15 | 1585310775.2567 | INFO | /project/miniWebsocket/controller/Stat.php
+2020-03-27 20:06:25 | 1585310785.2621 | INFO | /project/miniWebsocket/controller/Stat.php
+2020-03-27 20:06:35 | 1585310795.2664 | INFO | /project/miniWebsocket/controller/Stat.php
+2020-03-27 20:06:45 | 1585310805.2702 | INFO | /project/miniWebsocket/controller/Stat.php
+2020-03-27 20:06:55 | 1585310815.2743 | INFO | /project/miniWebsocket/controller/Stat.php
+2020-03-27 20:07:05 | 1585310825.2788 | INFO | /project/miniWebsocket/controller/Stat.php
+[2020-03-27 12:07:07 #8570.1]	NOTICE	Server is shutdown now.
+2020-03-27 20:07:07 | 1585310827.7616 | INFO | Worker 0 stop
+2020-03-27 20:07:07 | 1585310827.7619 | INFO | Worker 1 stop
+2020-03-27 20:07:09 | 1585310829.8760 | INFO | ======= Websocket master start =======
+2020-03-27 20:07:09 | 1585310829.9943 | INFO | Success to init MySQL instance
+2020-03-27 20:07:09 | 1585310829.9956 | INFO | Success to init MySQL instance
+2020-03-27 20:07:09 | 1585310829.9986 | INFO | Success to init MySQL instance
+2020-03-27 20:07:09 | 1585310829.9999 | INFO | Success to init Redis instance
+2020-03-27 20:07:10 | 1585310830.0015 | INFO | Success to init Redis instance
+2020-03-27 20:07:10 | 1585310830.0024 | INFO | Worker 1 ready for connections ...
+2020-03-27 20:07:10 | 1585310830.0038 | INFO | Worker 0 ready for connections ...
+2020-03-27 20:07:35 | 1585310855.5905 | INFO | This is an info msg
+2020-03-27 20:07:35 | 1585310855.5932 | WARN | This is a warn msg
+2020-03-27 20:07:35 | 1585310855.5952 | ERROR | This is an error msg
+2020-03-27 20:07:35 | 1585310855.5972 | FATAL | This is a fatal msg
+2020-03-27 20:07:35 | 1585310855.5991 | INFO | This is a log msg
+[2020-03-27 12:09:08 #8692.1]	NOTICE	Server is shutdown now.
+2020-03-27 20:09:08 | 1585310948.3590 | INFO | Worker 0 stop
+2020-03-27 20:09:08 | 1585310948.3592 | INFO | Worker 1 stop
+2020-03-27 20:09:10 | 1585310950.4829 | INFO | ======= Websocket master start =======
+2020-03-27 20:09:10 | 1585310950.6014 | INFO | Success to init MySQL instance
+2020-03-27 20:09:10 | 1585310950.6025 | INFO | Success to init MySQL instance
+2020-03-27 20:09:10 | 1585310950.6053 | INFO | Success to init MySQL instance
+2020-03-27 20:09:10 | 1585310950.6072 | INFO | Success to init Redis instance
+2020-03-27 20:09:10 | 1585310950.6087 | INFO | Success to init Redis instance
+2020-03-27 20:09:10 | 1585310950.6097 | INFO | Worker 1 ready for connections ...
+2020-03-27 20:09:10 | 1585310950.6117 | INFO | Worker 0 ready for connections ...
+[2020-03-27 12:10:16 #8813.1]	NOTICE	Server is shutdown now.
+2020-03-27 20:10:16 | 1585311016.6807 | INFO | Worker 0 stop
+2020-03-27 20:10:16 | 1585311016.6809 | INFO | Worker 1 stop
+2020-03-27 20:10:18 | 1585311018.7967 | INFO | ======= Websocket master start =======
+2020-03-27 20:10:18 | 1585311018.9153 | INFO | Success to init MySQL instance
+2020-03-27 20:10:18 | 1585311018.9159 | INFO | Success to init MySQL instance
+2020-03-27 20:10:18 | 1585311018.9191 | INFO | Success to init MySQL instance
+2020-03-27 20:10:18 | 1585311018.9208 | INFO | Success to init Redis instance
+2020-03-27 20:10:18 | 1585311018.9219 | INFO | Success to init Redis instance
+2020-03-27 20:10:18 | 1585311018.9232 | INFO | Worker 1 ready for connections ...
+2020-03-27 20:10:18 | 1585311018.9244 | INFO | Worker 0 ready for connections ...
+[2020-03-27 12:11:05 #8836.1]	NOTICE	Server is shutdown now.
+2020-03-27 20:11:05 | 1585311065.9789 | INFO | Worker 0 stop
+2020-03-27 20:11:05 | 1585311065.9791 | INFO | Worker 1 stop
+2020-03-27 20:11:08 | 1585311068.0773 | INFO | ======= Websocket master start =======
+2020-03-27 20:11:08 | 1585311068.1981 | INFO | Success to init MySQL instance
+2020-03-27 20:11:08 | 1585311068.1986 | INFO | Success to init MySQL instance
+2020-03-27 20:11:08 | 1585311068.2017 | INFO | Success to init MySQL instance
+2020-03-27 20:11:08 | 1585311068.2038 | INFO | Success to init Redis instance
+2020-03-27 20:11:08 | 1585311068.2049 | INFO | Success to init Redis instance
+2020-03-27 20:11:08 | 1585311068.2062 | INFO | Worker 1 ready for connections ...
+2020-03-27 20:11:08 | 1585311068.2075 | INFO | Worker 0 ready for connections ...
+[2020-03-27 12:12:39 #8893.1]	NOTICE	Server is shutdown now.
+2020-03-27 20:12:39 | 1585311159.5349 | INFO | Worker 0 stop
+2020-03-27 20:12:39 | 1585311159.5351 | INFO | Worker 1 stop
+2020-03-27 20:12:41 | 1585311161.6583 | INFO | ======= Websocket master start =======
+2020-03-27 20:12:41 | 1585311161.7799 | INFO | Success to init MySQL instance
+2020-03-27 20:12:41 | 1585311161.7797 | INFO | Success to init MySQL instance
+2020-03-27 20:12:41 | 1585311161.7844 | INFO | Success to init MySQL instance
+2020-03-27 20:12:41 | 1585311161.7845 | INFO | Success to init Redis instance
+2020-03-27 20:12:41 | 1585311161.7871 | INFO | Success to init Redis instance
+2020-03-27 20:12:41 | 1585311161.7879 | INFO | Worker 1 ready for connections ...
+2020-03-27 20:12:41 | 1585311161.7898 | INFO | Worker 0 ready for connections ...
+2020-03-27 20:12:52 | 1585311172.3564 | INFO | This is an info msg
+2020-03-27 20:12:52 | 1585311172.3592 | WARN | This is a warn msg
+2020-03-27 20:12:52 | 1585311172.3611 | ERROR | This is an error msg
+2020-03-27 20:12:52 | 1585311172.3627 | FATAL | This is a fatal msg
+2020-03-27 20:12:52 | 1585311172.3645 | INFO | This is a log msg
+2020-03-27 20:14:22 | 1585311262.5643 | ERROR | ErrorNO: 8
+2020-03-27 20:14:22 | 1585311262.5667 | ERROR | Error: Undefined property: C_Http::$m_player
+2020-03-27 20:14:22 | 1585311262.5686 | ERROR | File: /project/miniWebsocket/controller/Http.php
+2020-03-27 20:14:22 | 1585311262.5705 | ERROR | Line: 29
+2020-03-27 20:14:22 | 1585311262.5723 | ERROR | ================================================================================
+2020-03-27 20:14:27 | 1585311267.7472 | ERROR | ErrorNO: 8
+2020-03-27 20:14:27 | 1585311267.7492 | ERROR | Error: Undefined property: C_Http::$m_player
+2020-03-27 20:14:27 | 1585311267.7516 | ERROR | File: /project/miniWebsocket/controller/Http.php
+2020-03-27 20:14:27 | 1585311267.7537 | ERROR | Line: 29
+2020-03-27 20:14:27 | 1585311267.7556 | ERROR | ================================================================================
+2020-03-27 20:14:31 | 1585311271.4669 | ERROR | ErrorNO: 8
+2020-03-27 20:14:31 | 1585311271.4688 | ERROR | Error: Undefined property: C_Http::$m_player
+2020-03-27 20:14:31 | 1585311271.4714 | ERROR | File: /project/miniWebsocket/controller/Http.php
+2020-03-27 20:14:31 | 1585311271.4733 | ERROR | Line: 29
+2020-03-27 20:14:31 | 1585311271.4748 | ERROR | ================================================================================
+2020-03-27 20:14:45 | 1585311285.8253 | ERROR | ErrorNO: 8
+2020-03-27 20:14:45 | 1585311285.8283 | ERROR | Error: Undefined property: C_Http::$m_player
+2020-03-27 20:14:45 | 1585311285.8301 | ERROR | File: /project/miniWebsocket/controller/Http.php
+2020-03-27 20:14:45 | 1585311285.8318 | ERROR | Line: 29
+2020-03-27 20:14:45 | 1585311285.8335 | ERROR | ================================================================================
+2020-03-27 20:15:46 | 1585311346.9841 | ERROR | ErrorNO: 2
+2020-03-27 20:15:46 | 1585311346.9865 | ERROR | Error: Use of undefined constant AMQP_EX_TYPE_DIRECT - assumed 'AMQP_EX_TYPE_DIRECT' (this will throw an Error in a future version of PHP)
+2020-03-27 20:15:46 | 1585311346.9885 | ERROR | File: /project/miniWebsocket/library/RabbitMQ.php
+2020-03-27 20:15:46 | 1585311346.9904 | ERROR | Line: 44
+2020-03-27 20:15:46 | 1585311346.9922 | ERROR | ================================================================================
+2020-03-27 20:15:46 | 1585311346.9940 | ERROR | ErrorNO: 8
+2020-03-27 20:15:46 | 1585311346.9958 | ERROR | Error: Undefined index: rabbit_host
+2020-03-27 20:15:46 | 1585311346.9975 | ERROR | File: /project/miniWebsocket/library/RabbitMQ.php
+2020-03-27 20:15:46 | 1585311346.9991 | ERROR | Line: 48
+2020-03-27 20:15:47 | 1585311347.0009 | ERROR | ================================================================================
+2020-03-27 20:15:47 | 1585311347.0026 | ERROR | ErrorNO: 8
+2020-03-27 20:15:47 | 1585311347.0043 | ERROR | Error: Undefined index: rabbit_port
+2020-03-27 20:15:47 | 1585311347.0058 | ERROR | File: /project/miniWebsocket/library/RabbitMQ.php
+2020-03-27 20:15:47 | 1585311347.0073 | ERROR | Line: 49
+2020-03-27 20:15:47 | 1585311347.0092 | ERROR | ================================================================================
+2020-03-27 20:15:47 | 1585311347.0113 | ERROR | ErrorNO: 8
+2020-03-27 20:15:47 | 1585311347.0133 | ERROR | Error: Undefined index: rabbit_username
+2020-03-27 20:15:47 | 1585311347.0152 | ERROR | File: /project/miniWebsocket/library/RabbitMQ.php
+2020-03-27 20:15:47 | 1585311347.0170 | ERROR | Line: 50
+2020-03-27 20:15:47 | 1585311347.0188 | ERROR | ================================================================================
+2020-03-27 20:15:47 | 1585311347.0204 | ERROR | ErrorNO: 8
+2020-03-27 20:15:47 | 1585311347.0224 | ERROR | Error: Undefined index: rabbit_password
+2020-03-27 20:15:47 | 1585311347.0242 | ERROR | File: /project/miniWebsocket/library/RabbitMQ.php
+2020-03-27 20:15:47 | 1585311347.0261 | ERROR | Line: 51
+2020-03-27 20:15:47 | 1585311347.0279 | ERROR | ================================================================================
+2020-03-27 20:15:47 | 1585311347.0294 | ERROR | ErrorNO: 8
+2020-03-27 20:15:47 | 1585311347.0314 | ERROR | Error: Undefined index: rabbit_vhost
+2020-03-27 20:15:47 | 1585311347.0334 | ERROR | File: /project/miniWebsocket/library/RabbitMQ.php
+2020-03-27 20:15:47 | 1585311347.0353 | ERROR | Line: 52
+2020-03-27 20:15:47 | 1585311347.0372 | ERROR | ================================================================================
+2020-03-27 20:17:16 | 1585311436.4269 | INFO | Args in C_Http::tick => ["xyz","abc","123"]
+2020-03-27 20:17:27 | 1585311447.3943 | INFO | Args in C_Http::tick => ["xyz","abc","123"]
+2020-03-27 20:17:38 | 1585311458.7124 | INFO | Args in C_Http::tick => ["xyz","abc","123"]
+2020-03-27 20:17:40 | 1585311460.1611 | INFO | Args in C_Http::tick => ["xyz","abc","123"]
+[27-Mar-2020 20:17:40 Asia/Chongqing] PHP Fatal error:  Uncaught Error: Call to undefined method Worker::afterClose() in /project/miniWebsocket/library/core/Hooker.php:94
+Stack trace:
+#0 {main}
+  thrown in /project/miniWebsocket/library/core/Hooker.php on line 94
+[2020-03-27 12:17:40 *8922.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Call to undefined method Worker::afterClose() in /project/miniWebsocket/library/core/Hooker.php:94
+Stack trace:
+#0 {main}
+  thrown in /project/miniWebsocket/library/core/Hooker.php on line 94.
+[2020-03-27 12:17:40 $8918.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+2020-03-27 20:17:40 | 1585311460.2763 | FATAL | Worker 0 exit with code 255 and signal 0
+2020-03-27 20:17:40 | 1585311460.2862 | INFO | Success to init MySQL instance
+2020-03-27 20:17:40 | 1585311460.2889 | INFO | Success to init MySQL instance
+2020-03-27 20:17:40 | 1585311460.2913 | INFO | Success to init Redis instance
+2020-03-27 20:17:40 | 1585311460.2938 | INFO | Worker 0 ready for connections ...
+2020-03-27 20:17:53 | 1585311473.5846 | INFO | Args in C_Http::tick => ["xyz","abc","123"]
+2020-03-27 20:18:02 | 1585311482.0274 | INFO | Args in C_Http::tick => ["xyz","abc","123"]
+2020-03-27 20:18:02 | 1585311482.8429 | INFO | Args in C_Http::tick => ["xyz","abc","123"]
+2020-03-27 20:18:03 | 1585311483.3034 | INFO | Args in C_Http::tick => ["xyz","abc","123"]
+2020-03-27 20:18:03 | 1585311483.6532 | INFO | Args in C_Http::tick => ["xyz","abc","123"]
+2020-03-27 20:18:03 | 1585311483.8622 | INFO | Args in C_Http::tick => ["xyz","abc","123"]
+2020-03-27 20:18:04 | 1585311484.2370 | INFO | Args in C_Http::tick => ["xyz","abc","123"]
+2020-03-27 20:18:04 | 1585311484.4382 | INFO | Args in C_Http::tick => ["xyz","abc","123"]
+2020-03-27 20:18:04 | 1585311484.6306 | INFO | Args in C_Http::tick => ["xyz","abc","123"]
+2020-03-27 20:18:04 | 1585311484.8238 | INFO | Args in C_Http::tick => ["xyz","abc","123"]
+[27-Mar-2020 20:19:41 Asia/Chongqing] PHP Fatal error:  Uncaught Error: Call to undefined method Worker::afterClose() in /project/miniWebsocket/library/core/Hooker.php:94
+Stack trace:
+#0 {main}
+  thrown in /project/miniWebsocket/library/core/Hooker.php on line 94
+[2020-03-27 12:19:41 *8926.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Call to undefined method Worker::afterClose() in /project/miniWebsocket/library/core/Hooker.php:94
+Stack trace:
+#0 {main}
+  thrown in /project/miniWebsocket/library/core/Hooker.php on line 94.
+[2020-03-27 12:19:41 $8918.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+2020-03-27 20:19:41 | 1585311581.6956 | FATAL | Worker 0 exit with code 255 and signal 0
+2020-03-27 20:19:41 | 1585311581.7049 | INFO | Success to init MySQL instance
+2020-03-27 20:19:41 | 1585311581.7075 | INFO | Success to init MySQL instance
+2020-03-27 20:19:41 | 1585311581.7102 | INFO | Success to init Redis instance
+2020-03-27 20:19:41 | 1585311581.7124 | INFO | Worker 0 ready for connections ...
+[27-Mar-2020 20:20:11 Asia/Chongqing] PHP Fatal error:  Uncaught Error: Call to undefined method Worker::afterClose() in /project/miniWebsocket/library/core/Hooker.php:94
+Stack trace:
+#0 {main}
+  thrown in /project/miniWebsocket/library/core/Hooker.php on line 94
+[2020-03-27 12:20:11 *8928.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Call to undefined method Worker::afterClose() in /project/miniWebsocket/library/core/Hooker.php:94
+Stack trace:
+#0 {main}
+  thrown in /project/miniWebsocket/library/core/Hooker.php on line 94.
+[2020-03-27 12:20:11 $8918.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+2020-03-27 20:20:11 | 1585311611.6954 | FATAL | Worker 0 exit with code 255 and signal 0
+2020-03-27 20:20:11 | 1585311611.7020 | INFO | Success to init MySQL instance
+2020-03-27 20:20:11 | 1585311611.7045 | INFO | Success to init MySQL instance
+2020-03-27 20:20:11 | 1585311611.7072 | INFO | Success to init Redis instance
+2020-03-27 20:20:11 | 1585311611.7091 | INFO | Worker 0 ready for connections ...
+[27-Mar-2020 20:20:41 Asia/Chongqing] PHP Fatal error:  Uncaught Error: Call to undefined method Worker::afterClose() in /project/miniWebsocket/library/core/Hooker.php:94
+Stack trace:
+#0 {main}
+  thrown in /project/miniWebsocket/library/core/Hooker.php on line 94
+[2020-03-27 12:20:41 *8929.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Call to undefined method Worker::afterClose() in /project/miniWebsocket/library/core/Hooker.php:94
+Stack trace:
+#0 {main}
+  thrown in /project/miniWebsocket/library/core/Hooker.php on line 94.
+[2020-03-27 12:20:41 $8918.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+2020-03-27 20:20:41 | 1585311641.6966 | FATAL | Worker 0 exit with code 255 and signal 0
+2020-03-27 20:20:41 | 1585311641.7063 | INFO | Success to init MySQL instance
+2020-03-27 20:20:41 | 1585311641.7096 | INFO | Success to init MySQL instance
+2020-03-27 20:20:41 | 1585311641.7120 | INFO | Success to init Redis instance
+2020-03-27 20:20:41 | 1585311641.7140 | INFO | Worker 0 ready for connections ...

@@ -1,0 +1,54 @@
+2020-03-27 20:00:31 | 1585310431.9925 | INFO | SELECT `id`, `username`, `password` FROM `sl_user` | SUCCESS
+2020-03-27 20:01:49 | 1585310509.0103 | INFO | SELECT `id`, `username`, `password` FROM `sl_user` | SUCCESS
+2020-03-27 20:01:53 | 1585310513.1600 | INFO | SELECT * FROM `sl_user` LIMIT 0, 10 | SUCCESS
+2020-03-27 20:02:18 | 1585310538.2399 | INFO | SELECT * FROM `sl_user` LIMIT 1 | SUCCESS
+2020-03-27 20:02:26 | 1585310546.9501 | INFO | SELECT * FROM `sl_user` LIMIT 0, 10 | SUCCESS
+2020-03-27 20:02:33 | 1585310553.7586 | ERROR | ErrorNO: 9999
+2020-03-27 20:02:33 | 1585310553.7611 | ERROR | Error: Unknown column 'usernamex' in 'field list'
+2020-03-27 20:02:33 | 1585310553.7629 | ERROR | File: /project/miniWebsocket/library/core/Model.php
+2020-03-27 20:02:33 | 1585310553.7646 | ERROR | Line: 521
+2020-03-27 20:02:33 | 1585310553.7666 | ERROR | SQL: SELECT `id`, `usernamex` FROM `sl_user` ORDER BY `id` DESC
+2020-03-27 20:02:33 | 1585310553.7685 | ERROR | ================================================================================
+2020-03-27 20:03:21 | 1585310601.7870 | ERROR | ErrorNO: 9999
+2020-03-27 20:03:21 | 1585310601.7905 | ERROR | Error: Unknown column 'usernamex' in 'field list'
+2020-03-27 20:03:21 | 1585310601.7922 | ERROR | File: /project/miniWebsocket/library/core/Model.php
+2020-03-27 20:03:21 | 1585310601.7938 | ERROR | Line: 521
+2020-03-27 20:03:21 | 1585310601.7953 | ERROR | SQL: SELECT `id`, `usernamex` FROM `sl_user` ORDER BY `id` DESC
+2020-03-27 20:03:21 | 1585310601.7972 | ERROR | ================================================================================
+2020-03-27 20:03:39 | 1585310619.1943 | ERROR | ErrorNO: 9999
+2020-03-27 20:03:39 | 1585310619.1968 | ERROR | Error: Unknown column 'usernamex' in 'field list'
+2020-03-27 20:03:39 | 1585310619.1988 | ERROR | File: /project/miniWebsocket/library/core/Model.php
+2020-03-27 20:03:39 | 1585310619.2008 | ERROR | Line: 521
+2020-03-27 20:03:39 | 1585310619.2027 | ERROR | SQL: SELECT `id`, `usernamex` FROM `sl_user` ORDER BY `id` DESC
+2020-03-27 20:03:39 | 1585310619.2046 | ERROR | ================================================================================
+2020-03-27 20:04:29 | 1585310669.8598 | ERROR | ErrorNO: 9999
+2020-03-27 20:04:29 | 1585310669.8625 | ERROR | Error: Unknown column 'usernamex' in 'field list'
+2020-03-27 20:04:29 | 1585310669.8644 | ERROR | File: /project/miniWebsocket/library/core/Model.php
+2020-03-27 20:04:29 | 1585310669.8664 | ERROR | Line: 521
+2020-03-27 20:04:29 | 1585310669.8683 | ERROR | SQL: SELECT `id`, `usernamex` FROM `sl_user` ORDER BY `id` DESC
+2020-03-27 20:04:29 | 1585310669.8700 | ERROR | ================================================================================
+2020-03-27 20:04:36 | 1585310676.2921 | ERROR | ErrorNO: 9999
+2020-03-27 20:04:36 | 1585310676.2949 | ERROR | Error: Unknown column 'usernamex' in 'field list'
+2020-03-27 20:04:36 | 1585310676.2967 | ERROR | File: /project/miniWebsocket/library/core/Model.php
+2020-03-27 20:04:36 | 1585310676.2988 | ERROR | Line: 521
+2020-03-27 20:04:36 | 1585310676.3008 | ERROR | SQL: SELECT `id`, `usernamex` FROM `sl_user` ORDER BY `id` DESC
+2020-03-27 20:04:36 | 1585310676.3028 | ERROR | ================================================================================
+2020-03-27 20:04:38 | 1585310678.4997 | INFO | SELECT * FROM sl_user WHERE username = "" | SUCCESS
+2020-03-27 20:04:43 | 1585310683.3509 | INFO | INSERT  INTO sl_user(`username`,`password`) VALUES ('Kobe','8084d5139d499b93217a79a4c8c507e5'),('Curry','3cba3bd129a0c1a6f7288952520fb7ab'),('Thompson','3cba3bd129a0c1a6f7288952520fb7ab') | SUCCESS
+2020-03-27 20:04:53 | 1585310693.7234 | INFO | INSERT  INTO sl_user(`username`,`password`) VALUES ('Kobe','8084d5139d499b93217a79a4c8c507e5'),('Curry','3cba3bd129a0c1a6f7288952520fb7ab'),('Thompson','3cba3bd129a0c1a6f7288952520fb7ab') | SUCCESS
+2020-03-27 20:05:12 | 1585310712.8979 | INFO | INSERT  INTO sl_user(`username`,`password`) VALUES ('Kobe','8084d5139d499b93217a79a4c8c507e5'),('Curry','3cba3bd129a0c1a6f7288952520fb7ab'),('Thompson','3cba3bd129a0c1a6f7288952520fb7ab') | SUCCESS
+2020-03-27 20:05:25 | 1585310725.2349 | INFO | SELECT * FROM `sl_follow` LIMIT 1 | SUCCESS
+2020-03-27 20:13:02 | 1585311182.7797 | INFO | SELECT `id`, `username`, `password` FROM `sl_user` | SUCCESS
+2020-03-27 20:13:55 | 1585311235.8032 | INFO | INSERT  INTO sl_user(`username`,`password`) VALUES ('Kobe','8084d5139d499b93217a79a4c8c507e5'),('Curry','3cba3bd129a0c1a6f7288952520fb7ab'),('Thompson','3cba3bd129a0c1a6f7288952520fb7ab') | SUCCESS
+2020-03-27 20:14:08 | 1585311248.1888 | INFO | SELECT * FROM `sl_follow` LIMIT 1 | SUCCESS
+2020-03-27 20:15:27 | 1585311327.7631 | INFO | SELECT `id`, `username`, `password` FROM `sl_user` | SUCCESS
+2020-03-27 20:15:32 | 1585311332.3183 | INFO | SELECT * FROM `sl_user` LIMIT 0, 10 | SUCCESS
+2020-03-27 20:15:51 | 1585311351.6930 | INFO | SELECT * FROM `sl_user` LIMIT 1 | SUCCESS
+2020-03-27 20:15:56 | 1585311356.7243 | INFO | SELECT * FROM `sl_user` LIMIT 0, 10 | SUCCESS
+2020-03-27 20:16:04 | 1585311364.7999 | ERROR | ErrorNO: 9999
+2020-03-27 20:16:04 | 1585311364.8023 | ERROR | Error: Unknown column 'usernamex' in 'field list'
+2020-03-27 20:16:04 | 1585311364.8041 | ERROR | File: /project/miniWebsocket/library/core/Model.php
+2020-03-27 20:16:04 | 1585311364.8057 | ERROR | Line: 521
+2020-03-27 20:16:04 | 1585311364.8075 | ERROR | SQL: SELECT `id`, `usernamex` FROM `sl_user` ORDER BY `id` DESC
+2020-03-27 20:16:04 | 1585311364.8094 | ERROR | ================================================================================
+2020-03-27 20:18:13 | 1585311493.8826 | INFO | SELECT * FROM `sl_follow` LIMIT 1 | SUCCESS
